@@ -1,0 +1,48 @@
+name: Deploy to GitHub Pages
+
+# mainブランチにプッシュがあったときにこのアクションを実行
+on:
+  push:
+    branches:
+      - main 
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      # 1. リポジトリのチェックアウト
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # base設定が正しく機能するように、履歴全体をフェッチ
+          fetch-depth: 0 
+
+      # 2. Node.js環境のセットアップ
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      # 3. 依存関係のインストール
+      - name: Install dependencies
+        run: npm install
+
+      # 4. Astroのビルド
+      - name: Build Astro site
+        run: npm run build
+        # base設定により、結果は ./dist に出力される
+
+      # 5. GitHub Pagesへのデプロイ
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/configure-pages@v5
+        uses: actions/deploy-pages@v4
+        # ビルド成果物（distディレクトリの内容）をデプロイ
+        with:
+          # GitHub Pagesがdistディレクトリを参照するように設定
+          folder: dist
