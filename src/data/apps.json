@@ -39,58 +39,234 @@
         "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/26/23/a9/2623a9ed-72b0-57eb-b99f-da12ca5abfd0/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/400x400ia-75.webp"
     },
     {
+        "name": "シンプルアルバム -写真・動画整理-",
+        "description": "シンプルアルバムは、iPhone内の写真や動画をかんたん＆快適に整理・管理できるアプリです。\nアルバムを作って写真や動画をまとめることができます。\nシンプルなデザインで、誰でもすぐに使えます。\n\n主な機能\n•写真・動画をまとめて表示・整理\n•写真・動画にメモやタグ付け\n•アルバムごとにロックや非表示\n•サムネイル表示で一目でわかる\n•スライドショー機能で思い出を再生\n•ダークモード対応で夜も見やすい\n\n余計な機能を省いた、軽くて使いやすいアルバムアプリです。\n日常の思い出整理にぜひご活用ください。",
+        "features": [],
+        "appStoreLink": "https://apps.apple.com/jp/app/%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%82%A2%E3%83%AB%E3%83%90%E3%83%A0-%E5%86%99%E7%9C%9F-%E5%8B%95%E7%94%BB%E6%95%B4%E7%90%86/id6755067622",
+        "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d3/32/b4/d332b4fe-2d35-90d8-f8c3-9fa9d7ce2f3b/Placeholder.mill/400x400bb-75.webp",
+        "images": []
+    },
+    {
+        "name": "シンプル縦型スケジュール帳",
+        "description": "シンプルな縦型のスケジュールアプリです\n\n月の予定を1画面で表示します。\nメモ画面はシンプルでメモの入力と\n月の画面に表示する時のカラーを選択するのみです。\n\nメニューから表示の設定を行えます。",
+        "features": [],
+        "appStoreLink": "https://apps.apple.com/jp/app/%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E7%B8%A6%E5%9E%8B%E3%82%B9%E3%82%B1%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E5%B8%B3/id6480523446",
+        "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fa/03/46/fa0346d8-b8df-cce0-cf95-5583465a5e81/AppIcon-0-0-1x_U007epad-0-0-85-220.png/400x400ia-75.webp",
+        "images": []
+    },
+    {
+        "name": "Lock Photo -写真ウィジェット-",
+        "description": "Lock Photoはロック画面に写真ウィジェットを追加するアプリです！\n\n■機能\n・アプリ内に追加した写真をロック画面のウィジェットに表示できます\n・自身でリンクの設定が可能です\n・他のアプリから写真をドロップしてくることもできます\n・サイズの調整が可能なので写真に合わせてください\n\n使い方についてはアプリ内のメニューから確認できます！",
+        "features": [],
+        "appStoreLink": "https://apps.apple.com/jp/app/lock-photo-%E5%86%99%E7%9C%9F%E3%82%A6%E3%82%A3%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88/id1645555153",
+        "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/3c/80/14/3c8014f0-db00-4bbd-3167-32008032fd92/AppIcon-1x_U007emarketing-0-7-0-85-220.png/400x400ia-75.webp",
+        "images": []
+    },
+    {
+        "name": "SQ Photo -正方形枠 加工-",
+        "description": "写真を正方形の枠に収める編集アプリです！\n複数の写真を同時に編集、保存できます！\n\nシンプルなので使いやすい！\n\n■加工機能■\n- 写真を正方形枠に収めます\n- 枠内の写真サイズ変更\n- 背景変更（カラー、ぼかし、写真）\n\n■その他の機能■\n- 複数枚同時に編集（最大18枚）\n- プレビュー（グリッド、スライド）\n- 複数枚一括保存\n- 保存時に画像サイズを落としません",
+        "features": [],
+        "appStoreLink": "https://apps.apple.com/jp/app/sq-photo-%E6%AD%A3%E6%96%B9%E5%BD%A2%E6%9E%A0-%E5%8A%A0%E5%B7%A5/id1643704725",
+        "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/f9/89/bb/f989bbee-bc60-b5ff-e20e-bb12081234e5/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/400x400ia-75.webp",
+        "images": []
+    },
+    {
+        "name": "シンプル時計 - 春 -",
+        "description": "シンプルな時計アプリです\n縦、横画面両方に対応しています\n\n・8種類のテーマカラー\n・3種類のBGM",
+        "features": [],
+        "appStoreLink": "https://apps.apple.com/jp/app/%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E6%99%82%E8%A8%88-%E6%98%A5/id1621310681",
+        "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/d1/0e/50/d10e50d0-d927-35d5-5b2f-153dd907f7cb/AppIcon-1x_U007emarketing-0-4-sRGB-85-220.png/400x400ia-75.webp",
+        "images": []
+    },
+    {
+        "name": "やさしい単語当て",
+        "description": "ルールは簡単です！\n5文字の英単語を6回以内に当てましょう\n\n■ルール■\n5文字の英単語を入力したら送信ボタンを押します\n\n入力した文字の色によって答えのヒントがわかります\n『緑』正解の単語に含まれており、文字の場所も当たっています\n『黄』正解の単語に含まれていますが、場所が間違っています\n『グレー』正解の単語に含まれていない文字です\n\n少ない手数で正解することで得点が高くなります！",
+        "features": [],
+        "appStoreLink": "https://apps.apple.com/jp/app/%E3%82%84%E3%81%95%E3%81%97%E3%81%84%E5%8D%98%E8%AA%9E%E5%BD%93%E3%81%A6/id1616522556",
+        "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/1d/80/aa/1d80aa0d-b1f0-777d-0333-4d420511f88f/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/400x400ia-75.webp",
+        "images": []
+    },
+    {
+        "name": "SR Magic -画質をアップするアプリ-",
+        "description": "SR Magicは画像を高画質化するアプリです！\n\n4つのモードを用意しています！\n・写真向けの高画質化モード\n・イラスト向けの高画質化モード\n・軽量な高画質化モード\n・顔写真イラスト化モード\n\n◆使い方は簡単\n画質をアップしたい写真を選んで「高画質化」ボタンをタップするだけ！\nあとは「保存」ボタンタップするだけで画像を保存できます！",
+        "features": [],
+        "appStoreLink": "https://apps.apple.com/jp/app/sr-magic-%E7%94%BB%E8%B3%AA%E3%82%92%E3%82%A2%E3%83%83%E3%83%97%E3%81%99%E3%82%8B%E3%82%A2%E3%83%97%E3%83%AA/id1610144241",
+        "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/d6/30/fc/d630fce2-8824-e4d7-2cec-82f481917f76/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/400x400ia-75.webp",
+        "images": []
+    },
+    {
+        "name": "Falling Star",
+        "description": "ルールは簡単！\n画面の右から落ちてくる星が\n左に辿り着く前にタップしましょう！\n\n徐々にスピードやサイズが変化し難易度が高くになります\nTop3を目指してひたすらタップしましょう！",
+        "features": [],
+        "appStoreLink": "https://apps.apple.com/jp/app/falling-star/id1604217679",
+        "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/0c/dc/aa/0cdcaaf5-c122-281f-a89c-b13bc46d6143/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/400x400ia-75.webp",
+        "images": []
+    },
+    {
+        "name": "ウェザーカメラ",
+        "description": "その場の天気と一緒に撮影できるカメラアプリです。\n\n操作は簡単です。\nアプリを起動したらその場の天気と気温を表示します。\nあとはシャッターボタンを押すだけ。\n\nラベルはドラッグで好きな位置に移動できます。\nその他、以下の設定変更も可能です。\n■ラベルの設定■\n・表示言語の選択\n・文字色の選択\n・位置情報の表記選択\n・ハッシュタグ\n\n■天気の設定■\n・現在地、最高/最低、体感気温から選択\n・摂氏、華氏から選択",
+        "features": [],
+        "appStoreLink": "https://apps.apple.com/jp/app/%E3%82%A6%E3%82%A7%E3%82%B6%E3%83%BC%E3%82%AB%E3%83%A1%E3%83%A9/id1592125773",
+        "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/4f/89/c8/4f89c8ea-0d67-31e1-b336-58d8f6cbb9c3/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/400x400ia-75.webp",
+        "images": []
+    },
+    {
+        "name": "漢字クイズ 〜野菜〜",
+        "description": "野菜の漢字クイズアプリです！\n2つのモードで高得点を目指しましょう！\n\n■かんたん操作\n4つの選択肢から正しい読み or 書きを選択",
+        "features": [],
+        "appStoreLink": "https://apps.apple.com/jp/app/%E6%BC%A2%E5%AD%97%E3%82%AF%E3%82%A4%E3%82%BA-%E9%87%8E%E8%8F%9C/id1592291222",
+        "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/64/69/55/6469558b-30a4-8c24-fb33-03c8f203a7a2/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/400x400ia-75.webp",
+        "images": []
+    },
+    {
+        "name": "mist camera",
+        "description": "うっすら靄が掛かったような写真を撮影できます\n\n操作は簡単です\n常にフィルターが掛かっているのでシャッターを押すだけ\n\n撮影済みの写真にも同じフィルターをかけることができます\n写真を選んだらシャッターと同じボタンを押すだけ",
+        "features": [],
+        "appStoreLink": "https://apps.apple.com/jp/app/mist-camera/id1588939705",
+        "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/11/4e/bc/114ebcde-e1f8-4414-a8b4-7e0878a1ed65/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/400x400ia-75.webp",
+        "images": []
+    },
+    {
+        "name": "やること -今日-",
+        "description": "今日やることのみ管理するアプリです。\n\n次の日になると追加したタスクは消えてしまいます。\nなのでその日中にやりましょう。",
+        "features": [],
+        "appStoreLink": "https://apps.apple.com/jp/app/%E3%82%84%E3%82%8B%E3%81%93%E3%81%A8-%E4%BB%8A%E6%97%A5/id1575516351",
+        "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/6f/0d/7c/6f0d7c95-e068-d24b-a9f1-54714300e263/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/400x400ia-75.webp",
+        "images": []
+    },
+    {
+        "name": "漢字クイズ 〜魚〜",
+        "description": "魚の漢字クイズアプリです！\n2つのモードで高得点を目指しましょう！\n\n■かんたん操作\n4つの選択肢から正しい読み or 書きを選択",
+        "features": [],
+        "appStoreLink": "https://apps.apple.com/jp/app/%E6%BC%A2%E5%AD%97%E3%82%AF%E3%82%A4%E3%82%BA-%E9%AD%9A/id1571027792",
+        "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/4a/2a/28/4a2a2898-617a-a8b0-f76f-1092983365d3/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/400x400ia-75.webp",
+        "images": []
+    },
+    {
+        "name": "かんたんタイマー",
+        "description": "シンプルなタイマーアプリです。\n勉強や料理などにお使いください！\n\n■簡単操作\n・スライダーで時間を調整\n・気分に合わせてBGMを変更\nあとは開始ボタンをタップ！",
+        "features": [],
+        "appStoreLink": "https://apps.apple.com/jp/app/%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93%E3%82%BF%E3%82%A4%E3%83%9E%E3%83%BC/id1570104856",
+        "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/45/80/3a/45803a4e-87a6-8410-fb21-cdfe15fd2e31/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/400x400ia-75.webp",
+        "images": []
+    },
+    {
+        "name": "PhotoCard",
+        "description": "写真とメモをお洒落に管理できるアプリです！\n\n■基本機能■\n写真やメモをカードスタイルで管理できます！\n・カードに位置情報を追加することでマップ画面に表示\n・タグを追加してフィルター表示\n・テンプレート機能\n・作成したカードからテキストのコピーや写真の保存\nなど\n\n■サブ機能■\n・ロック機能\n・カードレイアウト変更\nなど",
+        "appStoreLink": "https://apps.apple.com/jp/app/photocard/id1569202611",
+        "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/23/c3/0e/23c30ec5-1a23-35f2-28db-3ae328f65f8d/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/400x400ia-75.webp",
+        "images": []
+    },
+    {
+        "name": "クイックメモ",
+        "description": "開いたらすぐにメモできるアプリです！\n\n機能はシンプル\n・起動したら新規メモ画面\n・メモの検索\n・メモの編集、削除\n・メモをクリップボードにコピー\n・文字の表示サイズを変更",
+        "features": [],
+        "appStoreLink": "https://apps.apple.com/jp/app/%E3%82%AF%E3%82%A4%E3%83%83%E3%82%AF%E3%83%A1%E3%83%A2/id1565733878",
+        "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c1/30/e2/c130e2a4-5287-0e3c-6167-9b3951157063/AppIcon-1x_U007emarketing-0-7-0-85-220.png/400x400ia-75.webp",
+        "images": []
+    },
+    {
+        "name": "Rect Simple-チェキ風加工アプリ",
+        "description": "Rect Simpleは写真をフレーム付き写真に加工するアプリです。\n写真にフィルターをかけることもできます。\nシンプルなUIなので簡単操作\n作った作品はすぐに保存\n\n■ 特徴 ■\n・フレームの形や角度の変更\n・レトロな写真フィルタ\n・デジタルなフォントの日付ラベル\n・写真の撮影場所ラベル",
+        "features": [],
+        "appStoreLink": "https://apps.apple.com/jp/app/rect-simple-%E3%83%81%E3%82%A7%E3%82%AD%E9%A2%A8%E5%8A%A0%E5%B7%A5%E3%82%A2%E3%83%97%E3%83%AA/id1558137073",
+        "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/18/59/25/18592552-0303-a2dd-5a71-3e25bf3dffa2/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/400x400ia-75.webp",
+        "images": []
+    },
+    {
         "name": "SNSアイコンメーカー",
-        "description": "SNSなどのアイコン用に写真の枠を簡単に変更・作成できるアプリ。色の変更や位置調整も自由自在です。",
-        "features": [
-            "豊富なカラーバリエーション",
-            "写真のズーム・移動機能",
-            "高画質保存対応"
-        ],
+        "description": "SNSなどのアイコン用に写真の枠を簡単に変更できるアプリです！\n\n操作は簡単！\n１.　写真を選択\n２.　お好みの枠を選択\n３.　お好みの色を設定\n４.　写真の位置を調整\n５.　保存ボタンを押して完了！ ",
+        "features": [],
         "appStoreLink": "https://apps.apple.com/jp/app/sns%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC/id1548509872",
-        "iconPlaceholder": "https://placehold.co/120x120/EC4899/ffffff?text=ICON"
+        "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/66/3b/50/663b504f-91a3-af7f-b996-0d5657c21f93/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/400x400ia-75.webp",
+        "images": []
     },
     {
-        "name": "シンプルな日記",
-        "description": "余計な機能を省いた、シンプルで使いやすい日記アプリ。毎日の出来事を写真とともに記録できます。",
-        "features": [
-            "写真添付機能",
-            "見やすいカレンダー表示",
-            "安心のパスコードロック"
-        ],
-        "appStoreLink": "https://apps.apple.com/jp/app/%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%81%AA%E6%97%A5%E8%A8%98/id1527811929",
-        "iconPlaceholder": "https://placehold.co/120x120/3B82F6/ffffff?text=DIARY"
+        "name": "iConer アイコン作成 ショートカット",
+        "description": "ホーム画面をオリジナルのアプリアイコンでオシャレに！\n\nアプリのアイコンを作成、管理、共有できるアプリです。\n\n■基本的な機能■\n・400種類以上の豊富な素材や自分の好きな色を選んで簡単にアイコンを作成できます！\n・アイコンをセット毎に管理でき、いつでも保存、編集ができます！\n・アイコンをQRコードで共有できるので自分で作ったアイコンを拡散しましょう！\n・アイコン単位、セット単位で写真アプリに保存できます！",
+        "features": [],
+        "appStoreLink": "https://apps.apple.com/jp/app/iconer-%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3%E4%BD%9C%E6%88%90-%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E3%82%AB%E3%83%83%E3%83%88/id1544591883",
+        "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/e8/91/21/e8912178-836a-21f1-7587-1d15e66653f0/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/400x400ia-75.webp",
+        "images": []
     },
     {
-        "name": "ToDoリスト",
-        "description": "日付とタブでタスクを直感的に管理できるToDoアプリ。やるべきことを整理して生産性を向上させます。",
-        "features": [
-            "日付別のタスク管理",
-            "カスタムタブ機能",
-            "シンプルな操作性"
-        ],
-        "appStoreLink": "https://apps.apple.com/jp/app/todo%E3%83%AA%E3%82%B9%E3%83%88-%E6%97%A5%E4%BB%98%E3%81%A8%E3%82%BF%E3%83%96%E3%81%A7%E7%B0%A1%E5%8D%98%E7%AE%A1%E7%90%86/id1532413581",
-        "iconPlaceholder": "https://placehold.co/120x120/EF4444/ffffff?text=TODO"
+        "name": "シンプルフォトウィジェット",
+        "description": "ホーム画面にフレーム加工した写真を配置できるようになるアプリです！\n\n自分好みに写真のフレームや色を編集できます。\nお好みで文字を重ねて表示できるので簡単な付箋としてお使いいただくこともできます。\n\nさらにフレームの色に合わせた壁紙を保存することもできるので、フレームを強調することもできます！\nフレームは今後随時追加予定です。",
+        "features": [],
+        "appStoreLink": "https://apps.apple.com/jp/app/%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%83%95%E3%82%A9%E3%83%88%E3%82%A6%E3%82%A3%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88/id1535483060",
+        "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/44/12/a2/4412a2cf-586c-e2ff-748a-b4c1739fa3e8/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/400x400ia-75.webp",
+        "images": []
     },
     {
         "name": "シンプルメモウィジェット",
-        "description": "ホーム画面に付箋のようなメモを配置できるウィジェットアプリ。忘れたくない情報を常に目に入る場所に。",
-        "features": [
-            "ホーム画面ウィジェット対応",
-            "文字サイズ・色変更",
-            "ダークモード対応"
-        ],
+        "description": "ホーム画面にウィジェットとしてメモを置けるアプリです！\nシンプルな作りになっているのでとても簡単にお使いいただけます。\n\nメモを書く時は、文字の大きさと色、背景の色を変更することができます！\n色の変更はカラーピッカーから選べるので自分好みの色をお使いいただけます！\nウィジェットも同じ色で表示することができます！\n\nアプリ内の設定メニューから簡単な使い方なども確認いただけます。",
+        "features": [],
         "appStoreLink": "https://apps.apple.com/jp/app/%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%83%A1%E3%83%A2%E3%82%A6%E3%82%A3%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88/id1534997238",
-        "iconPlaceholder": "https://placehold.co/120x120/F59E0B/ffffff?text=MEMO"
+        "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/b2/52/95/b2529592-77eb-5edc-d9ac-68833c2f3f80/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/400x400ia-75.webp",
+        "images": []
     },
     {
-        "name": "シンプルアルバム",
-        "description": "写真や動画をフォルダ分けして整理できるアルバムアプリ。プライベートな写真もシークレット機能で安全に管理。",
-        "features": [
-            "フォルダによる整理",
-            "シークレットモード",
-            "スライドショー機能"
-        ],
-        "appStoreLink": "https://apps.apple.com/jp/app/%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%82%A2%E3%83%AB%E3%83%90%E3%83%A0-%E5%86%99%E7%9C%9F-%E5%8B%95%E7%94%BB%E6%95%B4%E7%90%86/id6755067622",
-        "iconPlaceholder": "https://placehold.co/120x120/10B981/ffffff?text=ALBUM"
+        "name": "シンプルウィジェット",
+        "description": "ホーム画面にシンプルな時計ウィジェットを配置できるようになるアプリです。\n\n自分で好きな色の時計を作ることができます。\n作った時計はアナログ or デジタル表示を切り替えることができます。\n壁紙に合わせて自由に置いてみてください。\n時計は今後随時追加予定です。",
+        "features": [],
+        "appStoreLink": "https://apps.apple.com/jp/app/%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%82%A6%E3%82%A3%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88/id1533685780",
+        "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/23/02/7a/23027ac1-fcb9-6405-85e8-49c7c3e0ca69/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/400x400ia-75.webp",
+        "images": []
+    },
+    {
+        "name": "ToDoリスト-日付とタブで簡単管理",
+        "description": "シンプルな見た目で使いやすいToDoリストアプリです！\n\n毎日や毎週などのサイクルでToDoをタブ管理することができます。\nもちろん生活に合わせて自分の好きなタブを追加することもできます。\n忘れないよう通知を設定することもできます！\n繰り返しのToDoは自動でチェックのリセットを行います。\n\n■■ 特徴 ■■\n・簡単にToDo追加\n・サイクルや好みのタブでToDo管理\n・繰り返しToDoの自動リセット\n・アプリ起動時のタブを選択\n・タブの並べ替えと削除\n・ToDoをまとめて削除\n・繰り返しや一度きりの通知機能\n・パスワード設定で安心管理\n・アプリのテーマカラーが12種類\n・ダークテーマも自動切り替え",
+        "features": [],
+        "appStoreLink": "https://apps.apple.com/jp/app/todo%E3%83%AA%E3%82%B9%E3%83%88-%E6%97%A5%E4%BB%98%E3%81%A8%E3%82%BF%E3%83%96%E3%81%A7%E7%B0%A1%E5%8D%98%E7%AE%A1%E7%90%86/id1532413581",
+        "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/f6/8d/b2/f68db20e-a193-3b8d-5e96-f91d6d7dccfc/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/400x400ia-75.webp",
+        "images": []
+    },
+    {
+        "name": "絵日記風日記",
+        "description": "絵日記風の縦書き日記アプリです。\n写真をつけて綺麗な絵日記を作ってみてください！\n\n■特徴■\n・手書き風のフォント\n・日記の文章が縦書き表示\n(入力時は横書きになります。)\n・写真を添付してより絵日記風に\n・その日の天気も記録に残しましょう\n・作った日記は画像で共有",
+        "features": [],
+        "appStoreLink": "https://apps.apple.com/jp/app/%E7%B5%B5%E6%97%A5%E8%A8%98%E9%A2%A8%E6%97%A5%E8%A8%98/id1527919920",
+        "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/07/9b/64/079b64d5-10a5-4c4d-9bdc-838d74e3db3f/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/400x400ia-75.webp",
+        "images": []
+    },
+    {
+        "name": "シンプルな日記",
+        "description": "機能を絞ったとてもシンプルな日記アプリです。\nもちろん広告も表示されません。\n\n一日の出来事を簡単にまとめてみてください。\n\n[ 特徴 ]\n・写真を挿入できます。\n・文字の入力はタイトルと本文だけです。\n　(写真だけや文字だけでの記録もできます。)\n・操作がとても単純、最短2タップだけで記録。\n・iPhone、iPadがダークモードの時はダークテーマ表示。\n",
+        "features": [],
+        "appStoreLink": "https://apps.apple.com/jp/app/%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%81%AA%E6%97%A5%E8%A8%98/id1527811929",
+        "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/1c/7f/75/1c7f75d3-0a12-abd5-08af-635d2eb4f597/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/400x400ia-75.webp",
+        "images": []
+    },
+    {
+        "name": "ハッシュタグメモアプリ",
+        "description": "よく使うハッシュタグを纏めて管理するアプリです。\n\n追加したハッシュタグのグループはワンタップでコピーでき、\nそのままSNSアプリなどで利用できます。\n\n■■■こんな方へオススメ！■■■\n・InstagramやTikTok、Twitterなどの投稿によくハッシュタグをつける\n・いつも使うハッシュタグがたくさんあるがコピペが面倒\n・定期的に使うハッシュタグがある\n\n■■■使い方■■■\n---マイハッシュタグ---\n・「マイハッシュタグ」でいつものハッシュタグを登録\n・登録したハッシュタグのグループをワンタップでコピー\n・検索バーからハッシュタグの検索\n・鉛筆アイコンからグループの編集\n・不要になったらグループを長押しして削除\n\n---ハッシュタグ一覧---\n・「マイハッシュタグ」で登録したハッシュタグを一覧表示 \n（重複分は表示されません）\n・ハッシュタグ毎にワンタップでコピー\n\n---履歴---\n・「マイハッシュタグ」でワンタップコピーしたハッシュタグのグループを履歴表示\n（最大20グループ）\n・「履歴」のハッシュタグのグループもワンタップでコピー\n・検索バーからハッシュタグの検索\n\n■■■その他機能■■■\n・ダークモードに対応\n・（iPad）Split View、Slide Overに対応",
+        "features": [],
+        "appStoreLink": "https://apps.apple.com/jp/app/%E3%83%8F%E3%83%83%E3%82%B7%E3%83%A5%E3%82%BF%E3%82%B0%E3%83%A1%E3%83%A2%E3%82%A2%E3%83%97%E3%83%AA/id1526862736",
+        "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/4e/c0/8e/4ec08e07-35d4-86a5-ceae-3049c79815fe/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/400x400ia-75.webp",
+        "images": []
+    },
+    {
+        "name": "電卓 チョコレート",
+        "description": "電卓チョコレートはチョコレートな電卓です。\n広告表示がなくシンプルなUIながら実用的な電卓として活用頂けます。\n\n電卓としての機能\n・基本的な演算\n・消費税計算\n・計算結果のコピー\n・Split View、Slide Overに対応 (iPad)\n\nチョコレートとしての機能\n※本アプリは食べられません。\n・板チョコの様なボタン\n・タップ時、板チョコを割った時の様な音\n・電卓を好みの味(デザイン)に変更\n・アプリのアイコンを好みの味(デザイン)に変更\n\n◇◇◇電卓、アイコンデザイン◇◇◇\n-Milk\n-Bitter\n-White\n以下は購入していただくことで変更できます。\n-Strawberry\n-Matcha\n-Ruby\n",
+        "features": [],
+        "appStoreLink": "https://apps.apple.com/jp/app/%E9%9B%BB%E5%8D%93-%E3%83%81%E3%83%A7%E3%82%B3%E3%83%AC%E3%83%BC%E3%83%88/id1525401045",
+        "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/16/f1/7b/16f17bfb-e8f1-a2d8-aa77-abfe362d4846/AppIcon-1x_U007emarketing-0-7-0-85-220.png/400x400ia-75.webp",
+        "images": []
+    },
+    {
+        "name": "漢字の間違い探し",
+        "description": "制限時間30秒の中で似ている漢字の中から1つだけ異なる漢字を見つけるアプリ。\n連続正解で得点UP！\n\n●豊富な問題数\nお馴染みの漢字から難読漢字まで総数300超！\n\n●シェア機能\n得点をTwitter上で発信！\n\n●プレイステータス\n1秒間あたりの発見数を記録！\n\n●落ち着くBGM\nゆったりしたBGMの中、集中してプレイ！",
+        "features": [],
+        "appStoreLink": "https://apps.apple.com/jp/app/%E6%BC%A2%E5%AD%97%E3%81%AE%E9%96%93%E9%81%95%E3%81%84%E6%8E%A2%E3%81%97/id1521522649",
+        "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/43/dc/79/43dc793c-80d5-d3c3-a2a1-d7fc947e6e16/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/400x400ia-75.webp",
+        "images": []
+    },
+    {
+        "name": "Taberu",
+        "description": "「Taberu」は今いる場所周辺の飲食店を一覧表示するアプリです。\n\n気になった飲食店をタップすることで、地図アプリを起動しお店まで案内してくれます！\n\n※アプリの利用には位置情報サービスがONである必要があります。",
+        "features": [],
+        "appStoreLink": "https://apps.apple.com/jp/app/taberu/id1504097687",
+        "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/87/0f/37/870f37b6-42a8-8158-5159-9b1a49708fc1/AppIcon-1x_U007emarketing-0-7-0-85-220.png/400x400ia-75.webp",
+        "images": []
     }
 ]

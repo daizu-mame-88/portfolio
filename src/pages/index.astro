@@ -128,7 +128,7 @@ const recentApps = appData.slice(0, 3);
 
                             <div class="relative z-10 mt-8 pt-6 border-t border-custom-secondary/30">
                                 <ul class="flex flex-wrap gap-2">
-                                    {app.features.slice(0, index === 0 ? 4 : 2).map((feature) => (
+                                    {app.features?.slice(0, index === 0 ? 4 : 2).map((feature) => (
                                         <li class="text-xs font-medium px-3 py-1 rounded-full bg-custom-secondary/30 text-custom-headline">
                                             {feature}
                                         </li>
