@@ -15,6 +15,42 @@ async function fetchInternal(url) {
     return response.json();
 }
 
+async function fetchReviews(appId) {
+    // Fetch up to 50 reviews (default is often 50, but explicit limit is safer if we want more/less, max is usually 500 for RSS but let's start with 50 as 'all latest')
+    // The user asked for "all", so let's try a reasonable chunk like 50 or 100. Let's use 100.
+    const url = `https://itunes.apple.com/jp/rss/customerreviews/id=${appId}/sortBy=mostRecent/limit=50/json`;
+    try {
+        const data = await fetchInternal(url);
+
+        if (!data.feed || !data.feed.entry) {
+            return [];
+        }
+
+        // Handle case where entry is a single object instead of an array
+        const entries = Array.isArray(data.feed.entry) ? data.feed.entry : [data.feed.entry];
+
+        const reviews = entries
+            .filter(entry => {
+                // Skip entries that are not reviews (sometimes the first entry is the app info itself, though typically in this feed format it's cleaner, but good to be safe check existence of rating)
+                return entry['im:rating'] && parseInt(entry['im:rating'].label) >= 4; // Filter 4 or 5 stars
+            })
+            .map(entry => ({
+                id: entry.id.label,
+                title: entry.title.label,
+                content: entry.content.label,
+                rating: parseInt(entry['im:rating'].label),
+                author: entry.author.name.label
+            }));
+        // Removed .slice(0, 3) to get all matching reviews from the feed
+
+        return reviews;
+    } catch (error) {
+        // Some apps might not have reviews or feed might differ
+        console.warn(`Warning: Failed to fetch reviews for app ID ${appId}:`, error.message);
+        return [];
+    }
+}
+
 async function updateApps() {
     console.log('Reading apps.json...');
     const appsData = JSON.parse(await fs.readFile(APPS_JSON_PATH, 'utf-8'));
@@ -78,7 +114,14 @@ async function updateApps() {
                     app.images = result.screenshotUrls;
                 }
 
-                console.log(`Updated: ${app.name}`);
+                // Fetch Reviews
+                console.log(`Fetching reviews for ${app.name}...`);
+                const reviews = await fetchReviews(id);
+                if (reviews.length > 0) {
+                    app.reviews = reviews;
+                }
+
+                console.log(`Updated: ${app.name} (${reviews.length} reviews added)`);
             }
         }
 
