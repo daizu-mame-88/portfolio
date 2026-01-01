@@ -60,7 +60,7 @@
     }
 
     .btn-primary {
-        @apply bg-accent text-white px-10 py-4 rounded-full font-bold tracking-widest text-[11px] uppercase shadow-lg shadow-accent/10 transition-all duration-500 hover:shadow-2xl hover:shadow-accent/20 hover:-translate-y-1 active:translate-y-0 overflow-hidden relative;
+        @apply bg-accent text-white dark:text-slate-900 px-10 py-4 rounded-full font-bold tracking-widest text-[11px] uppercase shadow-lg shadow-accent/10 transition-all duration-500 hover:shadow-2xl hover:shadow-accent/20 hover:-translate-y-1 active:translate-y-0 overflow-hidden relative;
     }
 
     .heading-large {
