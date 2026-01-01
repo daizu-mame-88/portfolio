@@ -4,7 +4,10 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main 
+      - main
+  schedule:
+    # Run everyday at 0:00 UTC (9:00 JST)
+    - cron: '0 0 * * *'
 
 jobs:
   build-and-deploy:
@@ -36,6 +39,10 @@ jobs:
       # 3. 依存関係のインストール (変更なし)
       - name: Install dependencies
         run: npm install
+
+      # 3.5. アプリ情報の更新 (追加)
+      - name: Update apps.json
+        run: npm run update-apps
 
       # 4. Astroのビルド (変更なし)
       - name: Build Astro site
