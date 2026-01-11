@@ -7,7 +7,7 @@ import sitemap from '@astrojs/sitemap';
 // https://astro.build/config
 export default defineConfig({
     // ユーザーのGitHub PagesルートURLを設定
-    site: 'https://daizu-mame-88.github.io',
+    site: 'https://shuya-kk.github.io',
 
     // リポジトリ名を設定（GitHub Pagesのサブディレクトリ）
     base: '/portfolio',
