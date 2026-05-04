@@ -1,19 +1,87 @@
 [
     {
+        "name": "re:mood - 気分の記録と心のグラフ",
+        "appStoreLink": "https://apps.apple.com/jp/app/re-mood-%E6%B0%97%E5%88%86%E3%81%AE%E8%A8%98%E9%8C%B2%E3%81%A8%E5%BF%83%E3%81%AE%E3%82%B0%E3%83%A9%E3%83%95/id6758569475",
+        "features": [],
+        "images": [],
+        "description": "【心を整える、毎日の習慣】\n\nre:mood（リムード）は、あなたの「今の気分」を記録し、客観的に振り返るためのムードトラッカーアプリです。\nなんとなく過ぎていく毎日の感情を可視化することで、自分の心のリズムに気づくことができます。\n\n主な機能:\n• ムードグラフ: 1日の感情の波を美しいグラフで表示。\n• カレンダー: 月ごとの気分の変化を一覧で確認。調子の良い日・悪い日の傾向をつかめます。\n• 瞬時に記録: アプリを開かなくても、ウィジェットから「良い・普通・悪い」を1タップで記録可能。\n• 完全プライベート: データは端末内のみに保存され、誰にも見られません。\n\n忙しい毎日でも、自分の心と向き合う時間を。\nre:moodで、新しい心のケアをはじめましょう。",
+        "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/58/06/27/580627a9-9802-ac7e-f89a-e1e869a73a8b/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+        "rating": 0,
+        "ratingCount": 0
+    },
+    {
+        "name": "Low Note -ミニマルな20文字メモ-",
+        "appStoreLink": "https://apps.apple.com/jp/app/low-note-%E3%83%9F%E3%83%8B%E3%83%9E%E3%83%AB%E3%81%AA20%E6%96%87%E5%AD%97%E3%83%A1%E3%83%A2/id6761653151",
+        "features": [],
+        "images": [],
+        "description": "【「書きすぎる」を卒業する、もっともシンプルなメモアプリ】\n\n現代は情報過多の時代です。メモをきれいにまとめようとして、結局何も書けなかった経験はありませんか？ \nLowNote（ローノート）は、あなたの思考をあえて「20文字以内」に制限することで、もっとも本質的な一言だけを残すためのメモアプリです。\n\n■ LowNoteの特徴 \n・20文字の制限：短く書くことで、本当に大切なことだけが見えてきます。\n・圧倒的にミニマル：アプリを開いてすぐ入力。余計な装飾や複雑な設定はありません。 \n・ブック管理：メモをブックごとに分けて、スマートに整理。 \n・スワイプ操作：サイドバーの開閉、削除など、直感的な操作でストレスフリー。 \n・安心のデータ管理：インポート / エクスポート機能で、大切なデータをいつでも持ち出し可能。\n\n■ こんな方におすすめ \n・あれこれ考えすぎてメモが続かない方 \n・ミニマルで美しいデザインを好む方 \n・一言日記や、ふと浮かんだアイデアを素早く残したい方 \n・情報の断捨離をしたい方\n\n完璧を目指す必要はありません。LowNoteで、あなたの日常を「短く」記録し始めましょう。",
+        "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fd/cf/94/fdcf948b-156a-fd72-5ee7-9c3c0a35301c/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+        "rating": 5,
+        "ratingCount": 1
+    },
+    {
+        "name": "PaperCam - レトロな紙カメラ -",
+        "appStoreLink": "https://apps.apple.com/jp/app/papercam-%E3%83%AC%E3%83%88%E3%83%AD%E3%81%AA%E7%B4%99%E3%82%AB%E3%83%A1%E3%83%A9/id6762803520",
+        "features": [],
+        "images": [],
+        "description": "「PaperCam」は、本物の紙のような質感やページめくりアニメーションを取り入れた、レトロでエモーショナルなカメラアプリです。\n\nデジタルでありながらもアナログな手触りを感じられるUIデザインで、毎日の写真撮影をもっと楽しく、心地よい体験に変えます。\n\n【主な機能】 \n・レトロなフィルター機能：画面をタップするだけでフィルターを瞬時に切り替え。日常の風景をエモい雰囲気に仕上げます。\n・アスペクト比の変更：4:3、16:9、1:1 から、撮りたい構図に合わせて縦横比を自由に選択可能です。\n・直感的なズームと操作：ピンチ操作でのズームなど、シンプルで分かりやすい設計です。\n・撮影直後のプレビューと共有・印刷：撮った写真をすぐにプレビュー。そのままAirDropやSNSへシェアしたり、直接プリントアウトすることが可能です。\n\n【こんな人におすすめ】 \n・フィルムカメラやレトロな写真が好きな人 \n・おしゃれで可愛いカメラアプリを探している人 \n・エモい写真を撮りたい人 \n・UIやデザインにこだわったアプリを使いたい人\n\nPaperCamで、いつもの風景を特別な一枚として切り取ってみませんか？",
+        "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6e/1b/2c/6e1b2cb7-7c4f-8969-3bba-6785e7d7cd9e/AppIcon-0-0-1x_U007ephone-0-1-0-P3-85-220.png/512x512bb.jpg",
+        "rating": 4.33333,
+        "ratingCount": 3
+    },
+    {
+        "name": "Cyano 青写真 - アナログな青写真加工",
+        "appStoreLink": "https://apps.apple.com/jp/app/cyano-%E9%9D%92%E5%86%99%E7%9C%9F-%E3%82%A2%E3%83%8A%E3%83%AD%E3%82%B0%E3%81%AA%E9%9D%92%E5%86%99%E7%9C%9F%E5%8A%A0%E5%B7%A5/id6762447513",
+        "features": [],
+        "images": [],
+        "description": "「Cyano（サイアノ）」は、180年以上前の写真技法「サイアノタイプ（日光写真）」を、あなたのiPhoneで驚くほどリアルに再現するアプリです。\n\n◆ 他のフィルターアプリとはここが違います Cyanoは、単に色を変えるだけのアプリではありません。 実際の「今、この場所」の紫外線の強さ（UV指数）を取り入れ、化学変化のプロセスをシミュレーションします。\n\n◆ 楽しみ方：4つの情緒的なステップ\n\n暗室での準備: お気に入りの写真を選び、ネガの濃度を調整します。\n太陽の下で露光: UV指数に基づき、じっくりと光を当てます。焼き付け中の変化に目を奪われるはず。\n水洗いで浮かび上がる青: 生成された画像を「水」で洗う工程。鮮やかなプルシアンブルーが現れる瞬間は感動的です。\n完成と共有: まるで本物の印画紙にプリントしたような、質感豊かな1枚が完成。\n◆ こんな方におすすめ\n\nフィルム写真やトイカメラの雰囲気が好きな方\n人とは違う「エモい」写真をSNSに投稿したい方\nアナログなものづくりや、歴史的な技法に興味がある方\n忙しい日々に、少しだけ「待ち時間」を楽しみたい方\n◆ こだわりの機能\n\n気象連動: 現在地のUV指数を自動取得（手動設定も可能）。\n本格的な質感: プルシアンブルーの深い階調と、紙のテクスチャを再現。\nコレクション: 制作した日付と場所が刻まれた、自分だけのデジタルギャラリー。\n今、あなたの周りにある太陽の光が、最高の写真を作り出す鍵になります。 Cyanoで、新しい「青」の世界を探しに行きましょう。",
+        "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/32/13/8c/32138c36-854b-6122-836d-a6019a896f5a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+        "rating": 5,
+        "ratingCount": 1
+    },
+    {
         "name": "Low Camera -低画質カメラ-",
-        "description": "Low Cameraは低画質な写真や動画を撮影するカメラアプリです！\n\n撮影した写真や動画は低画質なので、スマホ容量の節約に繋がります！\nあえて低画質な写真や動画を撮影したい方にもおすすめ！\n\n◆撮影画質は3段階！\n・中画質\n・低画質\n・超低画質\n\n◆フィルターを18種類用意しました！\n\n◆写真はスクエア撮影もできます！\n\n◆メニューから保存時の品質を落とすことでさらに小さいファイルサイズで保存できます！\n\n- Terms of Use\nhttps://note.com/daizu88/n/n9935f75dc312",
+        "description": "Low Cameraは低画質な写真や動画を撮影するカメラアプリです！\n\n撮影した写真や動画は低画質なので、スマホ容量の節約に繋がります！ あえて低画質な写真や動画を撮影してレトロな雰囲気を出したい方にもおすすめ！\n\n◆撮影画質は5段階！ \n・中高画質 \n・中画質 \n・低画質 \n・超低画質 \n・極低画質\n\n◆写真だけでなく動画撮影も可能！\n\n◆カメラロールに保存されている既存の写真や動画を「低画質化」する機能も搭載！\n\n◆写真を彩る多数のフィルターを用意しました！\n\n◆画面の比率を1:1にするスクエア撮影もできます！（写真のみ）\n\n◆豊富な着せ替えテーマでアプリを自分好みにカスタマイズ可能！\n\n◆メニューから保存時の品質を落とすことで、さらに小さなファイルサイズで保存できます！\n\nTerms of Use https://shuya-kk.github.io/portfolio/blog/low-camera-term/",
         "features": [],
         "appStoreLink": "https://apps.apple.com/jp/app/low-camera-%E4%BD%8E%E7%94%BB%E8%B3%AA%E3%82%AB%E3%83%A1%E3%83%A9/id1606589793",
-        "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c4/26/ea/c426eac0-fca0-66ed-a4ee-1c3f953c12ca/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+        "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ad/b8/cf/adb8cf8c-b470-6284-f4e3-bdf77b3df127/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
         "images": [
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/7c/0e/60/7c0e606f-f078-8a55-f5d0-e35272af3d21/a2c0cb18-2ff9-410d-ae34-bfb95e9255b8_ja2-1.png/406x228bb.png",
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/20/fb/0a/20fb0a04-bed1-1b18-0513-1b683d75fc45/1c564a10-e525-4aa4-8230-9fe203059d65_ja2-2.png/406x228bb.png",
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/57/5e/c5/575ec579-e544-ebbb-dcd5-c85b6541ff15/310b69b3-fee3-459d-b58e-f1e26c2b3009_ja2-3.png/406x228bb.png",
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/cf/ca/32/cfca32e5-5b12-4c12-8a3f-7e4c39618ad8/cfe0afab-a81e-4689-8991-7501e2511f55_ja2-4.png/406x228bb.png"
         ],
-        "rating": 4.5696,
-        "ratingCount": 625,
+        "rating": 4.5583,
+        "ratingCount": 686,
         "reviews": [
+            {
+                "id": "13745880491",
+                "title": "最高",
+                "content": "ずっと使ってます！！ただ最近のアプデで動画撮った時開始数秒音が無音になってしまうバグが起きてて…ここを直していただきたいです😭あと撮った動画を見てみると、画面が増えてたり反転するバグも起きるようになっちゃって…",
+                "rating": 5,
+                "author": "ガブリアス大谷"
+            },
+            {
+                "id": "13718327645",
+                "title": "写真は良いです",
+                "content": "写真は無駄に高画質で撮りたくない時に最適です。段階があるのでそこそこ綺麗にも撮れるし荒くもできます。アプリ開いてすぐの画質がデフォルトだと自分には荒すぎるので選択したのを固定できたら嬉しいです。（←改善されました）スクエアはどこまで画角に入っているのか分かりにくくなぜこのような仕様なのか分かりません。（←改善されました）シャッター音がうるさいので無音を選べたら嬉しいです。（←改善されました。）動画撮影は今の所おすすめできません。アプリ自体の容量が膨らんでいく（←改善されました。）し、ちゃんと3人撮ったのに端が切れてハブいたみたいになりました。自動回転時にも画像が残るバグや、音がバタバタ切れたようなうるさい音になるバグもあり、そこまでストレージ節約にもならないので普通のカメラアプリで撮るほうが良かったです。他に良いアプリがないので改善を期待しています。\n\n追記：複数の迅速な改善ありがとうございまし\nた。使いやすくなりました。",
+                "rating": 4,
+                "author": "risu8888"
+            },
+            {
+                "id": "13702875384",
+                "title": "いいね",
+                "content": "使いやすい",
+                "rating": 5,
+                "author": "きのこ七色"
+            },
+            {
+                "id": "13579281405",
+                "title": "タイマーが欲しい",
+                "content": "撮影タイマーがあればもっと良いですね",
+                "rating": 4,
+                "author": "アコギ好き好き"
+            },
             {
                 "id": "13199390348",
                 "title": "丁度いい低画質👍🏻",
@@ -97,13 +165,6 @@
                 "content": "低画質の段階が選べるのがすごくいいです。\n広告の頻度がそんなにないことがいいです。\n4:3画質のエモさが最高！",
                 "rating": 5,
                 "author": "音ご"
-            },
-            {
-                "id": "11635109509",
-                "title": "最高",
-                "content": "神アプリです！！画質の悪い写真が好きでずっとこういうアプリ探してました！フィルターとかだとただ単にぼやけるだけのやつがおおかったけどこのアプリはちゃんと本物（？）って感じがして最高です！！\n普通に撮った写真の画質を下げれる機能もあったらいいな…！！",
-                "rating": 5,
-                "author": "ガブリアス大谷"
             },
             {
                 "id": "11627866524",
@@ -190,24 +251,33 @@
         "features": [],
         "appStoreLink": "https://apps.apple.com/jp/app/minicamera-%E3%83%9F%E3%83%8B%E3%83%81%E3%83%A5%E3%82%A2%E9%A2%A8%E3%82%AB%E3%83%A1%E3%83%A9/id6756365738",
         "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d1/1d/11/d11d113a-483f-6666-3d59-e02fa572f783/AppIcon1-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.jpg",
-        "rating": 0,
-        "ratingCount": 0
+        "rating": 5,
+        "ratingCount": 1
     },
     {
-        "name": "PrismCam",
-        "description": "日常を“ミニチュアの世界”に変えるカメラアプリ\n\nMiniCameraは、ワンタップでミニチュア写真・動画（チルトシフト風）が撮れるカメラアプリです。\nリアルタイムでぼかし・彩度・明るさを調整しながら、まるで模型のような世界を切り取れます。\n\n 主な機能\n■ ミニチュア風のボケ加工（チルトシフト）\n被写体の中心だけをくっきり残し、上下をぼかすことで立体的でかわいい見た目に。\n\n■ リアルタイムプレビュー\n撮影前にフィルターがそのまま画面に反映されるから、感覚的に調整できます。\n\n■ ぼかし・彩度・明度の細かい調整が可能\n自分の好みのミニチュア表現を作れます。\n\n■ シンプルで使いやすい UI\n落ち着いた色味のデザインで、初心者でも迷わないレイアウト。\n\n■ アプリ内アルバム & シェア\n撮った写真はそのまま保存、SNSにもすぐ投稿できます。\n\nこんな人におすすめ\n•ミニチュア風の写真が好き\n•カフェ巡り、街並み、風景をおしゃれに撮りたい\n•道具なしで“ジオラマ感”ある写真を撮りたい\n•とにかくシンプルで軽いカメラが欲しい",
+        "name": "PrismCam - プロ仕様のマニュアルカメラ",
+        "description": "「PrismCam」は、プロ仕様のマニュアルコントロールと、息をのむような「プリズマティック・クローム」デザインを融合させた次世代のカメラアプリです。\n\nデバイスの傾きに反応して輝きを変えるメタリックなインターフェースは、まるで高級なアナログ機材を操作しているかのような高揚感を与えます。精度と美しさの両方を求める写真愛好家のためのツールです。\n\n■主な機能：\n・プロフェッショナル制御: ISO感度、シャッタースピード、ホワイトバランス、露出補正（EV）を完全にマニュアルで操作可能。 \n・プリズマティックUI: 物理的なハードウェアの質感を持つ独自の「Prismatic Chrome & Sapphire」デザイン。ジャイロセンサーと連動した光の反射。 \n・高精度モニタリング: リアルタイム・ヒストグラムと詳細なフォーカス制御で、思い通りの一枚を。 \n・最高画質の追求: デバイスのセンサー能力を最大限に引き出し、細部まで鮮明に記録。 \n・プロ向けHUD: 撮影パラメータを瞬時に確認できる、シンプルで視認性の高いオーバーレイ表示。\n\nあなたのiPhoneを、至高の撮影機材へ。",
         "features": [],
         "appStoreLink": "https://apps.apple.com/jp/app/prismcam-%E3%83%97%E3%83%AD%E4%BB%95%E6%A7%98%E3%81%AE%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB%E3%82%AB%E3%83%A1%E3%83%A9/id6757154696",
-        "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d1/1d/11/d11d113a-483f-6666-3d59-e02fa572f783/AppIcon1-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.jpg",
-        "rating": 0,
-        "ratingCount": 0
+        "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/06/66/98/06669816-aa4f-d7c1-399f-9f3c70e3faff/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+        "rating": 5,
+        "ratingCount": 2,
+        "reviews": [
+            {
+                "id": "13654905249",
+                "title": "良い。コスパが最高",
+                "content": "無料でここまでのUI,自由度の高さを考えると⭐︎5にせざるをえない\nWBを保存できたらもっと良いと感じた",
+                "rating": 5,
+                "author": "まとえ__"
+            }
+        ]
     },
     {
-        "name": "Orbit",
-        "description": "日常を“ミニチュアの世界”に変えるカメラアプリ\n\nMiniCameraは、ワンタップでミニチュア写真・動画（チルトシフト風）が撮れるカメラアプリです。\nリアルタイムでぼかし・彩度・明るさを調整しながら、まるで模型のような世界を切り取れます。\n\n 主な機能\n■ ミニチュア風のボケ加工（チルトシフト）\n被写体の中心だけをくっきり残し、上下をぼかすことで立体的でかわいい見た目に。\n\n■ リアルタイムプレビュー\n撮影前にフィルターがそのまま画面に反映されるから、感覚的に調整できます。\n\n■ ぼかし・彩度・明度の細かい調整が可能\n自分の好みのミニチュア表現を作れます。\n\n■ シンプルで使いやすい UI\n落ち着いた色味のデザインで、初心者でも迷わないレイアウト。\n\n■ アプリ内アルバム & シェア\n撮った写真はそのまま保存、SNSにもすぐ投稿できます。\n\nこんな人におすすめ\n•ミニチュア風の写真が好き\n•カフェ巡り、街並み、風景をおしゃれに撮りたい\n•道具なしで“ジオラマ感”ある写真を撮りたい\n•とにかくシンプルで軽いカメラが欲しい",
+        "name": "Orbit - 心地よいToDoリスト",
+        "description": "Orbitは、日々のタスクを「心地よい体験」と「努力の可視化」に変える新しいToDoアプリです。流れるようなアニメーションと、継続が一目でわかるヒートマップで、あなたのモチベーションを支えます。\n\n【主な特徴】\n\n・流れるような操作感 (Fluid Animation) タスクの追加、完了、削除など、すべての動作に心地よいアニメーションを採用。これまでにないスムーズな操作体験を提供します。\n\n・努力の可視化 (Heatmap) 日々のタスク完了状況を、GitHubのような「ヒートマップ」で可視化。過去6ヶ月間の積み重ねが一目でわかり、毎日の継続（Streak）が楽しくなります。カレンダーはスワイプでスマートに開閉可能です。\n\n・ストレスフリーな管理 直感的なスワイプ操作: 片手でもサクサクとタスクを整理・完了できます。 \n・論理削除 (Soft Delete): リストから消しても、完了実績は内部データとして残ります。「リストはスッキリさせたいけれど、頑張った記録は消したくない」という願いを叶えます。 \n・データ管理: CSV形式でのインポート・エクスポートに標準対応。大切なデータを自由にバックアップ・分析できます。\n・テーマ: あなただけの色に 気分やスタイルに合わせて、アプリのテーマカラーをカスタマイズ可能。\n\nOrbitで、タスク管理を「義務」から「楽しみ」へ。",
         "features": [],
         "appStoreLink": "https://apps.apple.com/jp/app/orbit-%E5%BF%83%E5%9C%B0%E3%82%88%E3%81%84todo%E3%83%AA%E3%82%B9%E3%83%88/id6757268851",
-        "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d1/1d/11/d11d113a-483f-6666-3d59-e02fa572f783/AppIcon1-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+        "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bf/db/87/bfdb87ea-01c3-912b-363b-efc781e69505/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
         "rating": 0,
         "ratingCount": 0
     },
@@ -223,8 +293,8 @@
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/28/7b/fe/287bfe7c-5be3-b94d-6f72-73fa098567ff/cbe4d277-dfad-4160-b9eb-28693bfa4d79_rect55sc3.png/392x696bb.png",
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/00/60/6f/00606f8e-7972-3979-861f-17df5e8e54b0/bb4a104a-b2c9-4f1e-bb8b-e64092ddbcbd_rect55sc4.png/392x696bb.png"
         ],
-        "rating": 4.58653,
-        "ratingCount": 861,
+        "rating": 4.5906,
+        "ratingCount": 872,
         "reviews": [
             {
                 "id": "13516818501",
@@ -268,7 +338,7 @@
         "description": "WishItem は、ほしいものや気になるアイテムをまとめて管理できるシンプルなアプリです。  \n商品名・価格・画像・ブランド・説明・メモなどを登録して、グループごとに整理できます。  \n自分用のお買い物リストとして、またはプレゼントの管理にも役立ちます。  \n\n【主な機能】  \n- 欲しいものをグループ分けして管理  \n- 商品情報（名前・価格・画像・ブランド・説明・メモ）を登録  \n- 購入有無や購入日を記録  \n- お気に入り度（ほしい度）を設定して並び替え  \n- ショッピングサイトやアプリからも簡単に商品情報を登録\n- シンプルで落ち着いたデザイン、ダークモード対応  \n\n買いたいもの、気になるアイテムをすっきり整理して、  \n賢くお買い物を楽しみましょう。",
         "features": [],
         "appStoreLink": "https://apps.apple.com/jp/app/wishitem-%E3%81%BB%E3%81%97%E3%81%84%E3%82%82%E3%81%AE%E7%AE%A1%E7%90%86%E3%82%A2%E3%83%97%E3%83%AA/id6751175434",
-        "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/26/23/a9/2623a9ed-72b0-57eb-b99f-da12ca5abfd0/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+        "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6a/47/0a/6a470a18-85bb-e888-f805-f00bd836c166/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
         "rating": 0,
         "ratingCount": 0
     },
@@ -295,9 +365,37 @@
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b6/6a/d2/b66ad23e-cb17-ab15-8767-4a79566e72a6/b8cdc75a-e425-4015-8c5b-82f7e3fbf731_3_U679a_U76ee__U30d7_U30ec_U30d3_U30e5_U30fc.png/392x696bb.png",
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/59/16/12/5916129b-8825-f9c5-04bd-e0e3e3c2f69e/7111498d-1d6c-43d9-976f-c4b22beceb97_5_U679a_U76ee__U30d7_U30ec_U30d3_U30e5_U30fc.png/392x696bb.png"
         ],
-        "rating": 4.52941,
-        "ratingCount": 17,
+        "rating": 4.57143,
+        "ratingCount": 21,
         "reviews": [
+            {
+                "id": "14018663870",
+                "title": "すごくいいので！",
+                "content": "まだ使い始めたばかりです。シンプルな可愛さがあっていいと思います。\n広告も無いようですね。それも素晴らしいです。\nでももう少し自分でカスタムできたらとても嬉しく思います。\nカレンダーの色を自分好みの色で使えたら最高ですね！\nウィジェットも欲しい！！お願いします！！",
+                "rating": 4,
+                "author": "ひころめ"
+            },
+            {
+                "id": "14015187692",
+                "title": "サイコー！",
+                "content": "書いたことを全部表示できるので見返し易い、簡易日記として使い、色分けは体調分けに使っている、一目で自分の体調の流れが見えて体調管理し易くなった、広告もないしサイコーのアプリ！",
+                "rating": 5,
+                "author": "レモネード100"
+            },
+            {
+                "id": "14007971216",
+                "title": "縦型スケジュール帳、カレンダーの中で最高",
+                "content": "広告がない\nひと月の表示の仕方が切り替えられる\n1日の全ての予定を全行表示するようにできる\nバックグラウンド再生している音楽が止まらない\n\n良すぎてダウンロードしてすぐレビューしてしまいました",
+                "rating": 5,
+                "author": "mgwptpjpm"
+            },
+            {
+                "id": "13858714579",
+                "title": "使いやすい",
+                "content": "今のご時世なカレンダーは縦型だろ😀",
+                "rating": 5,
+                "author": "2412maf"
+            },
             {
                 "id": "13572142478",
                 "title": "要望",
@@ -384,8 +482,8 @@
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/b7/b4/df/b7b4dfcf-43e2-510e-c949-ba9b23b4e82a/aeb309fb-01a1-4238-a3d1-e72930018dcd_sr3.png/392x696bb.png",
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/21/88/1d/21881dd7-487e-c5d9-a7cf-3b612b5e79ed/797e42a9-17fb-4d61-95df-161ec866e117_sr4.png/392x696bb.png"
         ],
-        "rating": 4.525,
-        "ratingCount": 80,
+        "rating": 4.53085,
+        "ratingCount": 81,
         "reviews": [
             {
                 "id": "9286932569",
@@ -551,8 +649,8 @@
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource115/v4/8e/ac/e9/8eace94b-65b2-6b52-b063-32b4b39bd3e2/25cb9deb-9540-4c41-be8f-21f493a76d79_Simulator_Screen_Shot_-_iPhone_8_Plus_-_2021-05-03_at_01.36.48.png/392x696bb.png",
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource115/v4/4f/17/d1/4f17d1e3-2d43-cfe2-5b76-e8db447ddd14/a6654b10-7826-4799-bdb0-0efc8e552844_Simulator_Screen_Shot_-_iPhone_8_Plus_-_2021-05-03_at_01.37.09.png/392x696bb.png"
         ],
-        "rating": 4.125,
-        "ratingCount": 24
+        "rating": 4.16,
+        "ratingCount": 25
     },
     {
         "name": "Rect Simple-チェキ風加工アプリ",
@@ -581,8 +679,8 @@
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/2c/89/93/2c89931f-991c-d743-e9ec-6e03cbc64bb8/58dcecbc-e905-4349-ac78-5d2c05eb75bc_Simulator_Screen_Shot_-_iPhone_8_Plus_-_2021-01-13_at_01.33.39.png/392x696bb.png",
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource124/v4/23/39/d1/2339d186-ff70-8067-9b2e-2b6ea9d94afd/ac6580af-ac09-4085-9c28-c6e3c4f88c18_Simulator_Screen_Shot_-_iPhone_8_Plus_-_2021-01-13_at_01.33.54.png/392x696bb.png"
         ],
-        "rating": 5,
-        "ratingCount": 3,
+        "rating": 4.25,
+        "ratingCount": 4,
         "reviews": [
             {
                 "id": "12924820830",
@@ -606,8 +704,8 @@
             "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/84/90/d6/8490d630-b41e-6438-7f63-92f0fcb0b34b/74a504b5-87e2-428b-8328-ee9307ae9208_seimg5.png/392x696bb.png",
             "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/4a/51/f6/4a51f6f3-854c-13a3-eaae-b74944159393/c96575a7-6c6c-485d-b128-d98dcc9608ab_seimg6.png/392x696bb.png"
         ],
-        "rating": 4.11864,
-        "ratingCount": 59
+        "rating": 4.13333,
+        "ratingCount": 60
     },
     {
         "name": "シンプルフォトウィジェット",
@@ -696,8 +794,8 @@
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/15/cd/cb/15cdcbf5-2db8-f670-57a4-848db4774fd9/b5de873c-3efc-46a1-ac48-e7c2be288a8e_pd_3.png/392x696bb.png",
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/20/23/ae/2023ae8b-58d1-2bfa-1802-84120a976612/bb7832a0-8ccd-4cb0-a1bc-fed2c071b149_pd_4.png/392x696bb.png"
         ],
-        "rating": 4.56618,
-        "ratingCount": 136,
+        "rating": 4.53103,
+        "ratingCount": 145,
         "reviews": [
             {
                 "id": "13458668771",
@@ -902,13 +1000,13 @@
     },
     {
         "name": "Taberu",
-        "description": "「Taberu」は今いる場所周辺の飲食店を一覧表示するアプリです。\n\n気になった飲食店をタップすることで、地図アプリを起動しお店まで案内してくれます！\n\n※アプリの利用には位置情報サービスがONである必要があります。",
+        "description": "「Taberu」は今いる場所周辺の飲食店を一覧表示するアプリです。\n気になった飲食店をタップすることで、ルートを表示しお店まで案内してくれます！\n\n【こんな方におすすめ】\n・現在地から今すぐ入れるお店を探したい\n・地図を見ながら直感的に選びたい\n・面倒な検索よりも、アイコンでパッと決めたい\n・ダークモードでも快適にお店探しを楽しみたい\n\n※アプリの利用には位置情報サービスがONである必要があります。",
         "features": [],
         "appStoreLink": "https://apps.apple.com/jp/app/taberu/id1504097687",
-        "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/87/0f/37/870f37b6-42a8-8158-5159-9b1a49708fc1/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+        "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/98/a0/f1/98a0f145-a3f4-69c3-52f5-64cc1a748cec/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
         "images": [
-            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/bd/8e/1d/bd8e1d1e-091b-b339-d744-856f5c3ea813/59520555-7847-4935-bde3-e2db344ef93c_Simulator_Screen_Shot_-_iPhone_8_Plus_-_2020-08-31_at_03.24.57.png/392x696bb.png",
-            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/5e/aa/93/5eaa932d-aaf0-0d11-fe7e-467f04ab4ca2/02ef02fa-6033-4058-b2dc-ca59cb5d1e19_Simulator_Screen_Shot_-_iPhone_8_Plus_-_2020-08-31_at_03.25.02.png/392x696bb.png"
+            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c0/b0/7f/c0b07f88-a4b9-e4c0-7e4b-4a088bd47931/59520555-7847-4935-bde3-e2db344ef93c_Simulator_Screen_Shot_-_iPhone_8_Plus_-_2020-08-31_at_03.24.57.png/392x696bb.png",
+            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e3/e0/c9/e3e0c9d4-8107-2248-3f8e-fb2710d0dfa5/02ef02fa-6033-4058-b2dc-ca59cb5d1e19_Simulator_Screen_Shot_-_iPhone_8_Plus_-_2020-08-31_at_03.25.02.png/392x696bb.png"
         ],
         "rating": 5,
         "ratingCount": 3
