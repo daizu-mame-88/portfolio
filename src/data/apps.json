@@ -7,7 +7,8 @@
         "description": "【心を整える、毎日の習慣】\n\nre:mood（リムード）は、あなたの「今の気分」を記録し、客観的に振り返るためのムードトラッカーアプリです。\nなんとなく過ぎていく毎日の感情を可視化することで、自分の心のリズムに気づくことができます。\n\n主な機能:\n• ムードグラフ: 1日の感情の波を美しいグラフで表示。\n• カレンダー: 月ごとの気分の変化を一覧で確認。調子の良い日・悪い日の傾向をつかめます。\n• 瞬時に記録: アプリを開かなくても、ウィジェットから「良い・普通・悪い」を1タップで記録可能。\n• 完全プライベート: データは端末内のみに保存され、誰にも見られません。\n\n忙しい毎日でも、自分の心と向き合う時間を。\nre:moodで、新しい心のケアをはじめましょう。",
         "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/58/06/27/580627a9-9802-ac7e-f89a-e1e869a73a8b/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
         "rating": 0,
-        "ratingCount": 0
+        "ratingCount": 0,
+        "downloads": 79
     },
     {
         "name": "Low Note -ミニマルな20文字メモ-",
@@ -15,9 +16,26 @@
         "features": [],
         "images": [],
         "description": "【「書きすぎる」を卒業する、もっともシンプルなメモアプリ】\n\n現代は情報過多の時代です。メモをきれいにまとめようとして、結局何も書けなかった経験はありませんか？ \nLowNote（ローノート）は、あなたの思考をあえて「20文字以内」に制限することで、もっとも本質的な一言だけを残すためのメモアプリです。\n\n■ LowNoteの特徴 \n・20文字の制限：短く書くことで、本当に大切なことだけが見えてきます。\n・圧倒的にミニマル：アプリを開いてすぐ入力。余計な装飾や複雑な設定はありません。 \n・ブック管理：メモをブックごとに分けて、スマートに整理。 \n・スワイプ操作：サイドバーの開閉、削除など、直感的な操作でストレスフリー。 \n・安心のデータ管理：インポート / エクスポート機能で、大切なデータをいつでも持ち出し可能。\n\n■ こんな方におすすめ \n・あれこれ考えすぎてメモが続かない方 \n・ミニマルで美しいデザインを好む方 \n・一言日記や、ふと浮かんだアイデアを素早く残したい方 \n・情報の断捨離をしたい方\n\n完璧を目指す必要はありません。LowNoteで、あなたの日常を「短く」記録し始めましょう。",
-        "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fd/cf/94/fdcf948b-156a-fd72-5ee7-9c3c0a35301c/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-        "rating": 5,
-        "ratingCount": 1
+        "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/77/9a/5c/779a5cad-ae68-a891-6d2e-6545dcd0e65a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+        "rating": 4.66667,
+        "ratingCount": 3,
+        "reviews": [
+            {
+                "id": "14265010447",
+                "title": "おしい！",
+                "content": "メモの検索ができたら最高です！",
+                "rating": 4,
+                "author": "なかやまかなえ"
+            },
+            {
+                "id": "14180244693",
+                "title": "NICE!",
+                "content": "ミニマムさいこうです。\n言語が英語に出来たら嬉しいです",
+                "rating": 5,
+                "author": "にぱにぱgatw"
+            }
+        ],
+        "downloads": 43
     },
     {
         "name": "PaperCam - レトロな紙カメラ -",
@@ -26,8 +44,9 @@
         "images": [],
         "description": "「PaperCam」は、本物の紙のような質感やページめくりアニメーションを取り入れた、レトロでエモーショナルなカメラアプリです。\n\nデジタルでありながらもアナログな手触りを感じられるUIデザインで、毎日の写真撮影をもっと楽しく、心地よい体験に変えます。\n\n【主な機能】 \n・レトロなフィルター機能：画面をタップするだけでフィルターを瞬時に切り替え。日常の風景をエモい雰囲気に仕上げます。\n・アスペクト比の変更：4:3、16:9、1:1 から、撮りたい構図に合わせて縦横比を自由に選択可能です。\n・直感的なズームと操作：ピンチ操作でのズームなど、シンプルで分かりやすい設計です。\n・撮影直後のプレビューと共有・印刷：撮った写真をすぐにプレビュー。そのままAirDropやSNSへシェアしたり、直接プリントアウトすることが可能です。\n\n【こんな人におすすめ】 \n・フィルムカメラやレトロな写真が好きな人 \n・おしゃれで可愛いカメラアプリを探している人 \n・エモい写真を撮りたい人 \n・UIやデザインにこだわったアプリを使いたい人\n\nPaperCamで、いつもの風景を特別な一枚として切り取ってみませんか？",
         "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6e/1b/2c/6e1b2cb7-7c4f-8969-3bba-6785e7d7cd9e/AppIcon-0-0-1x_U007ephone-0-1-0-P3-85-220.png/512x512bb.jpg",
-        "rating": 4.33333,
-        "ratingCount": 3
+        "rating": 3.5,
+        "ratingCount": 4,
+        "downloads": 277
     },
     {
         "name": "Cyano 青写真 - アナログな青写真加工",
@@ -37,22 +56,23 @@
         "description": "「Cyano（サイアノ）」は、180年以上前の写真技法「サイアノタイプ（日光写真）」を、あなたのiPhoneで驚くほどリアルに再現するアプリです。\n\n◆ 他のフィルターアプリとはここが違います Cyanoは、単に色を変えるだけのアプリではありません。 実際の「今、この場所」の紫外線の強さ（UV指数）を取り入れ、化学変化のプロセスをシミュレーションします。\n\n◆ 楽しみ方：4つの情緒的なステップ\n\n暗室での準備: お気に入りの写真を選び、ネガの濃度を調整します。\n太陽の下で露光: UV指数に基づき、じっくりと光を当てます。焼き付け中の変化に目を奪われるはず。\n水洗いで浮かび上がる青: 生成された画像を「水」で洗う工程。鮮やかなプルシアンブルーが現れる瞬間は感動的です。\n完成と共有: まるで本物の印画紙にプリントしたような、質感豊かな1枚が完成。\n◆ こんな方におすすめ\n\nフィルム写真やトイカメラの雰囲気が好きな方\n人とは違う「エモい」写真をSNSに投稿したい方\nアナログなものづくりや、歴史的な技法に興味がある方\n忙しい日々に、少しだけ「待ち時間」を楽しみたい方\n◆ こだわりの機能\n\n気象連動: 現在地のUV指数を自動取得（手動設定も可能）。\n本格的な質感: プルシアンブルーの深い階調と、紙のテクスチャを再現。\nコレクション: 制作した日付と場所が刻まれた、自分だけのデジタルギャラリー。\n今、あなたの周りにある太陽の光が、最高の写真を作り出す鍵になります。 Cyanoで、新しい「青」の世界を探しに行きましょう。",
         "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/32/13/8c/32138c36-854b-6122-836d-a6019a896f5a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
         "rating": 5,
-        "ratingCount": 1
+        "ratingCount": 1,
+        "downloads": 37
     },
     {
         "name": "Low Camera -低画質カメラ-",
-        "description": "Low Cameraは低画質な写真や動画を撮影するカメラアプリです！\n\n撮影した写真や動画は低画質なので、スマホ容量の節約に繋がります！ あえて低画質な写真や動画を撮影してレトロな雰囲気を出したい方にもおすすめ！\n\n◆撮影画質は5段階！ \n・中高画質 \n・中画質 \n・低画質 \n・超低画質 \n・極低画質\n\n◆写真だけでなく動画撮影も可能！\n\n◆カメラロールに保存されている既存の写真や動画を「低画質化」する機能も搭載！\n\n◆写真を彩る多数のフィルターを用意しました！\n\n◆画面の比率を1:1にするスクエア撮影もできます！（写真のみ）\n\n◆豊富な着せ替えテーマでアプリを自分好みにカスタマイズ可能！\n\n◆メニューから保存時の品質を落とすことで、さらに小さなファイルサイズで保存できます！\n\nTerms of Use https://shuya-kk.github.io/portfolio/blog/low-camera-term/",
+        "description": "Low Cameraは低画質な写真や動画を撮影するカメラアプリです！\n\n撮影した写真や動画は低画質なので、スマホ容量の節約に繋がります！ あえて低画質な写真や動画を撮影してレトロな雰囲気を出したい方にもおすすめ！\n\n◆撮影画質は5段階！ \n・中高画質 \n・中画質 \n・低画質 \n・超低画質 \n・極低画質\n\n◆写真だけでなく動画撮影も可能！\n\n◆カメラロールに保存されている既存の写真や動画を「低画質化」する機能も搭載！\n\n◆写真を彩る多数のフィルターを用意しました！\n\n◆写真、動画のアスペクト比率は4:3、1:1、16:9で撮影もできます！\n\n◆豊富な着せ替えテーマでアプリを自分好みにカスタマイズ可能！\n\n◆メニューから保存時の品質を落とすことで、さらに小さなファイルサイズで保存できます！\n\n◆ロック画面やコントロールセンターにアイコンを配置することですぐにアプリを起動して撮影できます！\n\nTerms of Use https://shuya-kk.github.io/portfolio/blog/low-camera-term/",
         "features": [],
         "appStoreLink": "https://apps.apple.com/jp/app/low-camera-%E4%BD%8E%E7%94%BB%E8%B3%AA%E3%82%AB%E3%83%A1%E3%83%A9/id1606589793",
-        "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ad/b8/cf/adb8cf8c-b470-6284-f4e3-bdf77b3df127/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+        "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/47/7b/32/477b3227-e4ea-db4e-bf00-966378935bd9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
         "images": [
-            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/7c/0e/60/7c0e606f-f078-8a55-f5d0-e35272af3d21/a2c0cb18-2ff9-410d-ae34-bfb95e9255b8_ja2-1.png/406x228bb.png",
-            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/20/fb/0a/20fb0a04-bed1-1b18-0513-1b683d75fc45/1c564a10-e525-4aa4-8230-9fe203059d65_ja2-2.png/406x228bb.png",
-            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/57/5e/c5/575ec579-e544-ebbb-dcd5-c85b6541ff15/310b69b3-fee3-459d-b58e-f1e26c2b3009_ja2-3.png/406x228bb.png",
-            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/cf/ca/32/cfca32e5-5b12-4c12-8a3f-7e4c39618ad8/cfe0afab-a81e-4689-8991-7501e2511f55_ja2-4.png/406x228bb.png"
+            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1b/df/02/1bdf0291-3581-6a50-6d24-3245fdb2e7f8/a2c0cb18-2ff9-410d-ae34-bfb95e9255b8_ja2-1.png/406x228bb.png",
+            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c8/a8/d0/c8a8d0a4-a913-36e0-7856-3476c77081ca/1c564a10-e525-4aa4-8230-9fe203059d65_ja2-2.png/406x228bb.png",
+            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a3/a4/4d/a3a44d1e-f7a5-c449-0558-8e8f3ee7998d/310b69b3-fee3-459d-b58e-f1e26c2b3009_ja2-3.png/406x228bb.png",
+            "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/24/e5/70/24e570ef-2533-2512-fd0e-d86b6666cbd8/cfe0afab-a81e-4689-8991-7501e2511f55_ja2-4.png/406x228bb.png"
         ],
-        "rating": 4.5583,
-        "ratingCount": 686,
+        "rating": 4.54408,
+        "ratingCount": 726,
         "reviews": [
             {
                 "id": "13745880491",
@@ -243,7 +263,8 @@
                 "rating": 5,
                 "author": "Rusk7533"
             }
-        ]
+        ],
+        "downloads": 323872
     },
     {
         "name": "MiniCamera – ミニチュア風カメラ",
@@ -251,8 +272,9 @@
         "features": [],
         "appStoreLink": "https://apps.apple.com/jp/app/minicamera-%E3%83%9F%E3%83%8B%E3%83%81%E3%83%A5%E3%82%A2%E9%A2%A8%E3%82%AB%E3%83%A1%E3%83%A9/id6756365738",
         "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d1/1d/11/d11d113a-483f-6666-3d59-e02fa572f783/AppIcon1-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.jpg",
-        "rating": 5,
-        "ratingCount": 1
+        "rating": 4.14286,
+        "ratingCount": 14,
+        "downloads": 1910
     },
     {
         "name": "PrismCam - プロ仕様のマニュアルカメラ",
@@ -270,7 +292,8 @@
                 "rating": 5,
                 "author": "まとえ__"
             }
-        ]
+        ],
+        "downloads": 104
     },
     {
         "name": "Orbit - 心地よいToDoリスト",
@@ -279,7 +302,8 @@
         "appStoreLink": "https://apps.apple.com/jp/app/orbit-%E5%BF%83%E5%9C%B0%E3%82%88%E3%81%84todo%E3%83%AA%E3%82%B9%E3%83%88/id6757268851",
         "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bf/db/87/bfdb87ea-01c3-912b-363b-efc781e69505/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
         "rating": 0,
-        "ratingCount": 0
+        "ratingCount": 0,
+        "downloads": 30
     },
     {
         "name": "Rect-チェキ風加工アプリ",
@@ -293,8 +317,8 @@
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/28/7b/fe/287bfe7c-5be3-b94d-6f72-73fa098567ff/cbe4d277-dfad-4160-b9eb-28693bfa4d79_rect55sc3.png/392x696bb.png",
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/00/60/6f/00606f8e-7972-3979-861f-17df5e8e54b0/bb4a104a-b2c9-4f1e-bb8b-e64092ddbcbd_rect55sc4.png/392x696bb.png"
         ],
-        "rating": 4.5906,
-        "ratingCount": 872,
+        "rating": 4.58549,
+        "ratingCount": 883,
         "reviews": [
             {
                 "id": "13516818501",
@@ -331,7 +355,8 @@
                 "rating": 4,
                 "author": "もーりすもり"
             }
-        ]
+        ],
+        "downloads": 46504
     },
     {
         "name": "WishItem – ほしいもの管理アプリ",
@@ -339,8 +364,9 @@
         "features": [],
         "appStoreLink": "https://apps.apple.com/jp/app/wishitem-%E3%81%BB%E3%81%97%E3%81%84%E3%82%82%E3%81%AE%E7%AE%A1%E7%90%86%E3%82%A2%E3%83%97%E3%83%AA/id6751175434",
         "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6a/47/0a/6a470a18-85bb-e888-f805-f00bd836c166/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-        "rating": 0,
-        "ratingCount": 0
+        "rating": 5,
+        "ratingCount": 1,
+        "downloads": 437
     },
     {
         "name": "シンプルアルバム -写真・動画整理-",
@@ -350,14 +376,15 @@
         "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c1/c6/69/c1c66978-bc49-c260-391a-1b88a7be00ba/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
         "images": [],
         "rating": 0,
-        "ratingCount": 0
+        "ratingCount": 0,
+        "downloads": 324
     },
     {
         "name": "シンプル縦型スケジュール帳",
         "description": "シンプルな縦型のスケジュールアプリです\n\n月の予定を1画面で表示します。\nメモ画面はシンプルでメモの入力と\n月の画面に表示する時のカラーを選択するのみです。\n\nメニューから表示の設定を行えます。",
         "features": [],
         "appStoreLink": "https://apps.apple.com/jp/app/%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E7%B8%A6%E5%9E%8B%E3%82%B9%E3%82%B1%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E5%B8%B3/id6480523446",
-        "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fa/03/46/fa0346d8-b8df-cce0-cf95-5583465a5e81/AppIcon-0-0-1x_U007epad-0-0-85-220.png/512x512bb.jpg",
+        "iconPlaceholder": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e9/87/34/e9873418-84d9-8f91-df09-1ba03a28922f/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
         "images": [
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ec/ca/a5/eccaa552-ec57-73f1-155c-8443642dec3b/14301d25-f3bb-434a-9266-96548ab1d2bc_1_U679a_U76ee__U30d7_U30ec_U30d3_U30e5_U30fc.png/392x696bb.png",
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/56/98/a6/5698a644-3a94-ab17-2949-37241752ad1d/af260c8e-9d6e-49fb-ab2f-5f9bf1e88455_2_U679a_U76ee__U30d7_U30ec_U30d3_U30e5_U30fc.png/392x696bb.png",
@@ -365,9 +392,23 @@
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b6/6a/d2/b66ad23e-cb17-ab15-8767-4a79566e72a6/b8cdc75a-e425-4015-8c5b-82f7e3fbf731_3_U679a_U76ee__U30d7_U30ec_U30d3_U30e5_U30fc.png/392x696bb.png",
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/59/16/12/5916129b-8825-f9c5-04bd-e0e3e3c2f69e/7111498d-1d6c-43d9-976f-c4b22beceb97_5_U679a_U76ee__U30d7_U30ec_U30d3_U30e5_U30fc.png/392x696bb.png"
         ],
-        "rating": 4.57143,
-        "ratingCount": 21,
+        "rating": 4.625,
+        "ratingCount": 24,
         "reviews": [
+            {
+                "id": "14137880809",
+                "title": "マーカーについて",
+                "content": "大変見やすくて、シンプルでとても重宝してます。アプデ後一度色を指定すると変更できなくなってしまい、新しいタグを作りコピペすればイケるのですが、改善してもらえるととても助かります（一日の中でタグ分け出来るようになったのは大変便利です！）",
+                "rating": 5,
+                "author": "☔️bowdrop"
+            },
+            {
+                "id": "14044503464",
+                "title": "バージョン1.1.0にて",
+                "content": "愛用しております。いつもありがとうございます。\n\n文字の変換の挙動がおかしくなってしまいました。\n\n例えば、\"てすと\"と入力すると、1文字目の\"て\"はその場で入力確定し、残りの\"すと\"だけ変換候補が出るようになってしまいます。\n\n2026/5/9 追記\n上記修正いただきありがとうございました！",
+                "rating": 5,
+                "author": "."
+            },
             {
                 "id": "14018663870",
                 "title": "すごくいいので！",
@@ -417,7 +458,8 @@
                 "rating": 4,
                 "author": "えるんぺんと"
             }
-        ]
+        ],
+        "downloads": 1710
     },
     {
         "name": "Lock Photo -写真ウィジェット-",
@@ -431,7 +473,8 @@
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/17/49/a1/1749a194-9bb0-1746-98db-5db77988ee85/c7be496f-a530-4d38-b5f0-3876cabf8d3f_LSPhone23.png/392x696bb.png"
         ],
         "rating": 0,
-        "ratingCount": 0
+        "ratingCount": 0,
+        "downloads": 550
     },
     {
         "name": "SQ Photo -正方形枠 加工-",
@@ -445,7 +488,8 @@
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/18/79/df/1879dfd0-8e3b-d15e-4555-8ba11172126c/6f4179d0-7cfb-469b-87ca-bd8039fd90cb_phoneS3.png/392x696bb.png"
         ],
         "rating": 0,
-        "ratingCount": 0
+        "ratingCount": 0,
+        "downloads": 875
     },
     {
         "name": "シンプル時計 - 春 -",
@@ -457,7 +501,8 @@
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/46/2f/eb/462febfa-eccd-c4d2-adaf-600172bbd8ef/255bb044-9967-41cb-92d9-96960b59851b_IMG_0116.png/406x228bb.png"
         ],
         "rating": 2.66667,
-        "ratingCount": 3
+        "ratingCount": 3,
+        "downloads": 1518
     },
     {
         "name": "やさしい単語当て",
@@ -470,7 +515,8 @@
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/c0/cc/11/c0cc11e1-e1ca-eb08-10f0-1651f6cc4c15/e5370aa9-7832-431c-8cc0-1d55ea5729be_wordleM2.png/406x228bb.png"
         ],
         "rating": 1,
-        "ratingCount": 1
+        "ratingCount": 1,
+        "downloads": 301
     },
     {
         "name": "SR Magic -画質をアップするアプリ-",
@@ -482,8 +528,8 @@
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/b7/b4/df/b7b4dfcf-43e2-510e-c949-ba9b23b4e82a/aeb309fb-01a1-4238-a3d1-e72930018dcd_sr3.png/392x696bb.png",
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/21/88/1d/21881dd7-487e-c5d9-a7cf-3b612b5e79ed/797e42a9-17fb-4d61-95df-161ec866e117_sr4.png/392x696bb.png"
         ],
-        "rating": 4.53085,
-        "ratingCount": 81,
+        "rating": 4.53659,
+        "ratingCount": 82,
         "reviews": [
             {
                 "id": "9286932569",
@@ -499,7 +545,8 @@
                 "rating": 4,
                 "author": "盆踊り成人"
             }
-        ]
+        ],
+        "downloads": 3813
     },
     {
         "name": "Falling Star",
@@ -512,7 +559,8 @@
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/77/10/dd/7710dd5f-ccb6-9dcf-bee0-47cce43aa1e7/0c902512-6d69-435f-97e5-8a186c674586_Simulator_Screen_Shot_-_iPhone_8_Plus_-_2022-01-11_at_00.56.52.png/392x696bb.png"
         ],
         "rating": 5,
-        "ratingCount": 1
+        "ratingCount": 1,
+        "downloads": 730
     },
     {
         "name": "ウェザーカメラ",
@@ -526,7 +574,8 @@
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/8d/2b/32/8d2b3219-0d44-2633-b2c8-0af30389d28b/8d8ed2e1-2550-4149-89bb-3a8377dcda31_Simulator_Screen_Shot_-_iPhone_8_Plus_-_2021-10-27_at_00.12.52.png/392x696bb.png"
         ],
         "rating": 1.33333,
-        "ratingCount": 3
+        "ratingCount": 3,
+        "downloads": 430
     },
     {
         "name": "漢字クイズ 〜野菜〜",
@@ -541,7 +590,8 @@
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/3f/a7/55/3fa75523-a43f-662d-5822-6521f8fb5eb9/9be4e43b-0834-45fc-b92b-baf9991deaa8_Simulator_Screen_Shot_-_iPhone_8_Plus_-_2021-10-27_at_20.03.39.png/392x696bb.png"
         ],
         "rating": 0,
-        "ratingCount": 0
+        "ratingCount": 0,
+        "downloads": 502
     },
     {
         "name": "mist camera",
@@ -555,7 +605,8 @@
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource115/v4/d8/4b/8f/d84b8fd6-9a9b-fb57-507c-c2f115280b92/f7fc755c-d1e8-46e3-a921-a674da2bc8e2_Simulator_Screen_Shot_-_iPhone_8_Plus_-_2021-10-06_at_02.10.48.png/392x696bb.png"
         ],
         "rating": 4,
-        "ratingCount": 2
+        "ratingCount": 2,
+        "downloads": 1582
     },
     {
         "name": "やること -今日-",
@@ -592,7 +643,8 @@
                 "rating": 5,
                 "author": "am0907"
             }
-        ]
+        ],
+        "downloads": 1124
     },
     {
         "name": "漢字クイズ 〜魚〜",
@@ -607,7 +659,8 @@
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource115/v4/67/78/d5/6778d531-3b10-48bf-5ce9-9fed80c30703/a675002c-1d89-4bea-96c0-d3ba30776258_Simulator_Screen_Shot_-_iPhone_8_Plus_-_2021-06-06_at_22.17.25.png/392x696bb.png"
         ],
         "rating": 5,
-        "ratingCount": 1
+        "ratingCount": 1,
+        "downloads": 740
     },
     {
         "name": "かんたんタイマー",
@@ -621,7 +674,8 @@
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/f1/3b/b7/f13bb724-0842-637c-970d-c1aed3f11c35/7f1d271e-05a5-4c53-a4e5-33d2f0ed1874_Simulator_Screen_Shot_-_iPhone_8_Plus_-_2021-05-31_at_18.44.57.png/392x696bb.png"
         ],
         "rating": 5,
-        "ratingCount": 1
+        "ratingCount": 1,
+        "downloads": 311
     },
     {
         "name": "PhotoCard",
@@ -635,7 +689,8 @@
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/64/c8/40/64c8406a-b639-de81-810f-940cea9a6308/1d6dccab-2ef8-4e76-8e8f-51292c4c2ad3_Simulator_Screen_Shot_-_iPhone_8_Plus_-_2021-05-26_at_00.09.48.png/392x696bb.png"
         ],
         "rating": 2,
-        "ratingCount": 2
+        "ratingCount": 2,
+        "downloads": 503
     },
     {
         "name": "クイックメモ",
@@ -649,8 +704,9 @@
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource115/v4/8e/ac/e9/8eace94b-65b2-6b52-b063-32b4b39bd3e2/25cb9deb-9540-4c41-be8f-21f493a76d79_Simulator_Screen_Shot_-_iPhone_8_Plus_-_2021-05-03_at_01.36.48.png/392x696bb.png",
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource115/v4/4f/17/d1/4f17d1e3-2d43-cfe2-5b76-e8db447ddd14/a6654b10-7826-4799-bdb0-0efc8e552844_Simulator_Screen_Shot_-_iPhone_8_Plus_-_2021-05-03_at_01.37.09.png/392x696bb.png"
         ],
-        "rating": 4.16,
-        "ratingCount": 25
+        "rating": 4.19231,
+        "ratingCount": 26,
+        "downloads": 4797
     },
     {
         "name": "Rect Simple-チェキ風加工アプリ",
@@ -664,8 +720,18 @@
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource124/v4/ae/c4/ec/aec4eca1-f388-5aa6-9eba-4d4a72462713/0d0310b6-70d0-4ea0-9588-0c67c03d7922_Simulator_Screen_Shot_-_iPhone_8_Plus_-_2021-03-12_at_23.45.41.png/392x696bb.png",
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/da/d8/c1/dad8c139-a6f5-bb32-8d28-44cbe92a1d9f/2f2bb18c-58d7-42ad-a3ff-ec2698c08631_Simulator_Screen_Shot_-_iPhone_8_Plus_-_2021-03-12_at_23.47.28.png/392x696bb.png"
         ],
-        "rating": 4.33333,
-        "ratingCount": 42
+        "rating": 4.25581,
+        "ratingCount": 43,
+        "reviews": [
+            {
+                "id": "14231460969",
+                "title": "シンプルでよきけど欲しい機能も",
+                "content": "すごくシンプルでわかりやすいから使いやすいチェキ風加工アプリ\n（知人はAIに画像を渡して加工してもらってるみたいだけど、うち的にはAIを使いたくないみたいなところはあったり）\n\nただ、いくつか気になる所や欲しい機能もある。\n\n1. 編集画面に表示できる背景やフレームの色が決まってる所\n\n設定画面？から入れ替えしないといけないのは少し不便\n「（頻繁に入れ替えないかもだけど）横スクロールで全部見れたらなぁって」って思うところ。\n\n2. チェキの角丸編集をしたい。\n\n四隅のところを四角いのだけじゃなくて、角が丸くなった感じにもしたい\n縦・横・正方形を切り替えるところに1つボタンがあるといいなって思いました。\n\n3. フレーム部分を色以外の物に変えたい\n\n今は色だけだけど、他にも白の紙（質感）にしたりできたらバリエーションが増えていいなって\n任意の画像を選択してフレーム（下地?）にできたらすごく便利だなって思います！",
+                "rating": 4,
+                "author": "shia1010"
+            }
+        ],
+        "downloads": 7151
     },
     {
         "name": "SNSアイコンメーカー",
@@ -689,7 +755,8 @@
                 "rating": 5,
                 "author": "ほのえり好き♡"
             }
-        ]
+        ],
+        "downloads": 4469
     },
     {
         "name": "iConer アイコン作成 ショートカット",
@@ -704,8 +771,9 @@
             "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/84/90/d6/8490d630-b41e-6438-7f63-92f0fcb0b34b/74a504b5-87e2-428b-8328-ee9307ae9208_seimg5.png/392x696bb.png",
             "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/4a/51/f6/4a51f6f3-854c-13a3-eaae-b74944159393/c96575a7-6c6c-485d-b128-d98dcc9608ab_seimg6.png/392x696bb.png"
         ],
-        "rating": 4.13333,
-        "ratingCount": 60
+        "rating": 4.14754,
+        "ratingCount": 61,
+        "downloads": 8701
     },
     {
         "name": "シンプルフォトウィジェット",
@@ -722,7 +790,8 @@
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/ff/d9/0f/ffd90fba-ec4b-6b7b-c87c-9c4b7abc2449/8563b000-cd4e-4466-8d52-707b4f812c28_Simulator_Screen_Shot_-_iPhone_8_Plus_-_2020-10-13_at_12.59.17.png/392x696bb.png"
         ],
         "rating": 3.4,
-        "ratingCount": 5
+        "ratingCount": 5,
+        "downloads": 1121
     },
     {
         "name": "シンプルメモウィジェット",
@@ -737,7 +806,8 @@
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource124/v4/8d/eb/18/8deb1817-207c-817a-baa2-0f74fa9665f3/a6ddd97a-641f-413b-87b4-4253d4ffc7ef_Simulator_Screen_Shot_-_iPhone_8_Plus_-_2020-10-08_at_17.47.53.png/392x696bb.png"
         ],
         "rating": 3.71429,
-        "ratingCount": 7
+        "ratingCount": 7,
+        "downloads": 1778
     },
     {
         "name": "シンプルウィジェット",
@@ -762,7 +832,8 @@
                 "rating": 4,
                 "author": "餅雄"
             }
-        ]
+        ],
+        "downloads": 5367
     },
     {
         "name": "ToDoリスト-日付とタブで簡単管理",
@@ -780,7 +851,8 @@
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource124/v4/a1/31/90/a13190a1-8e11-0f0d-13f3-3fb89d41e0fc/f292fcd2-a727-4589-8099-0c267de2519d_se7.png/392x696bb.png"
         ],
         "rating": 2.8,
-        "ratingCount": 5
+        "ratingCount": 5,
+        "downloads": 1251
     },
     {
         "name": "絵日記風日記",
@@ -794,8 +866,8 @@
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/15/cd/cb/15cdcbf5-2db8-f670-57a4-848db4774fd9/b5de873c-3efc-46a1-ac48-e7c2be288a8e_pd_3.png/392x696bb.png",
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/20/23/ae/2023ae8b-58d1-2bfa-1802-84120a976612/bb7832a0-8ccd-4cb0-a1bc-fed2c071b149_pd_4.png/392x696bb.png"
         ],
-        "rating": 4.53103,
-        "ratingCount": 145,
+        "rating": 4.5,
+        "ratingCount": 152,
         "reviews": [
             {
                 "id": "13458668771",
@@ -937,7 +1009,8 @@
                 "rating": 5,
                 "author": "夜卯"
             }
-        ]
+        ],
+        "downloads": 12331
     },
     {
         "name": "シンプルな日記",
@@ -954,7 +1027,8 @@
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/81/5e/d0/815ed043-8e84-f50b-29da-4546a684edc2/7f822c6d-76e7-48f2-bac5-57f22c9f8ac3_Simulator_Screen_Shot_-_iPhone_8_Plus_-_2020-08-15_at_05.07.51.png/392x696bb.png"
         ],
         "rating": 0,
-        "ratingCount": 0
+        "ratingCount": 0,
+        "downloads": 797
     },
     {
         "name": "ハッシュタグメモアプリ",
@@ -983,7 +1057,8 @@
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource124/v4/1d/11/69/1d11698e-d08f-5061-6cfb-87a2bd2997d4/9838d7ec-9c11-477a-89d9-2e1b400fe07f_Simulator_Screen_Shot_-_iPhone_8_Plus_-_2020-07-30_at_07.11.17.png/392x696bb.png"
         ],
         "rating": 5,
-        "ratingCount": 3
+        "ratingCount": 3,
+        "downloads": 300
     },
     {
         "name": "漢字の間違い探し",
@@ -995,8 +1070,9 @@
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/d1/d5/e6/d1d5e651-60ee-7de9-caac-c141d5205823/1d9b38f8-6154-4264-a9c5-1f731c2e895b_knj03.png/406x228bb.png",
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/3d/b8/3e/3db83e32-c287-7c5d-6b14-1f999a821ff8/02fa515e-9c17-46d8-8c9c-abdbbc3e5f5e_knj04.png/406x228bb.png"
         ],
-        "rating": 4.44444,
-        "ratingCount": 18
+        "rating": 4.47368,
+        "ratingCount": 19,
+        "downloads": 12817
     },
     {
         "name": "Taberu",
@@ -1009,6 +1085,7 @@
             "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e3/e0/c9/e3e0c9d4-8107-2248-3f8e-fb2710d0dfa5/02ef02fa-6033-4058-b2dc-ca59cb5d1e19_Simulator_Screen_Shot_-_iPhone_8_Plus_-_2020-08-31_at_03.25.02.png/392x696bb.png"
         ],
         "rating": 5,
-        "ratingCount": 3
+        "ratingCount": 3,
+        "downloads": 384
     }
 ]

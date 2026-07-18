@@ -43,6 +43,11 @@ jobs:
       # 3.5. アプリ情報の更新 (追加)
       - name: Update apps.json
         run: npm run update-apps
+        env:
+          APP_STORE_ISSUER_ID: ${{ secrets.APP_STORE_ISSUER_ID }}
+          APP_STORE_KEY_ID: ${{ secrets.APP_STORE_KEY_ID }}
+          APP_STORE_PRIVATE_KEY: ${{ secrets.APP_STORE_PRIVATE_KEY }}
+          APP_STORE_VENDOR_NUMBER: ${{ secrets.APP_STORE_VENDOR_NUMBER }}
 
       # 4. Astroのビルド (変更なし)
       - name: Build Astro site
