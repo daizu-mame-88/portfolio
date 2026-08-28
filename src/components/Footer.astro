@@ -2,24 +2,41 @@
 const currentYear = new Date().getFullYear();
 ---
 
-<footer class="py-12 border-t border-border bg-surface">
+<footer class="py-16 mt-auto">
     <div
-        class="container-custom flex flex-col md:flex-row justify-between items-center gap-4"
+        class="container-custom flex flex-col sm:flex-row justify-between items-center gap-6"
     >
-        <p class="text-sm text-secondary">
+        <p class="text-xs text-secondary tracking-tight">
             &copy; {currentYear} SHUYA KOMIYA. All rights reserved.
         </p>
-        <div class="flex gap-6">
+        <div class="flex items-center gap-6">
             <a
                 href="/portfolio/"
-                class="text-sm text-secondary hover:text-primary transition-colors"
-                >Home</a
+                class="text-xs text-secondary hover:text-primary transition-colors tracking-tight"
             >
+                Home
+            </a>
+            <a
+                href="/portfolio/apps"
+                class="text-xs text-secondary hover:text-primary transition-colors tracking-tight"
+            >
+                Apps
+            </a>
             <a
                 href="/portfolio/blog"
-                class="text-sm text-secondary hover:text-primary transition-colors"
-                >Blog</a
+                class="text-xs text-secondary hover:text-primary transition-colors tracking-tight"
             >
+                Blog
+            </a>
+            <a
+                href="https://github.com/shuya-kk"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-xs text-secondary hover:text-primary transition-colors tracking-tight"
+            >
+                GitHub
+            </a>
         </div>
     </div>
 </footer>
+

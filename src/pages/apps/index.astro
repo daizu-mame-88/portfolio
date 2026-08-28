@@ -2,7 +2,6 @@
 import appsData from "../../data/apps.json";
 import Layout from "../../layouts/Layout.astro";
 import AppCard from "../../components/AppCard.astro";
-import SectionHeader from "../../components/SectionHeader.astro";
 
 const apps = (appsData || []).sort((a: any, b: any) => {
     // First sort by rating count (popularity)
@@ -13,32 +12,35 @@ const apps = (appsData || []).sort((a: any, b: any) => {
 });
 ---
 
-<Layout title="制作実績">
-    <div class="container-custom section-padding pt-40">
-        <div class="max-w-3xl mb-24">
-            <h1 class="heading-large mb-8">開発アプリ</h1>
-            <p class="text-2xl text-secondary leading-relaxed font-medium">
-                これまでに開発・リリースしたiOSアプリケーションの一覧です。
+<Layout title="Apps | SHUYA KOMIYA">
+    <div class="container-custom pb-32">
+        <div class="max-w-3xl mb-16 md:mb-20 reveal-on-scroll">
+            <h1 class="heading-hero mb-6">Apps</h1>
+            <p class="heading-sub max-w-2xl">
+                これまでに設計・開発・リリースしたiOSネイティブアプリケーションの一覧です。
             </p>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10">
             {
                 apps.map((app: any) => (
-                    <AppCard
-                        name={app.name}
-                        description={app.description}
-                        iconUrl={app.iconPlaceholder}
-                        appStoreUrl={app.appStoreLink}
-                        features={app.features}
-                        isFeatured={false}
-                        rating={app.rating}
-                        ratingCount={app.ratingCount}
-                        downloads={app.downloads}
-                        reviews={app.reviews}
-                    />
+                    <div class="reveal-on-scroll">
+                        <AppCard
+                            name={app.name}
+                            description={app.description}
+                            iconUrl={app.iconPlaceholder}
+                            appStoreUrl={app.appStoreLink}
+                            features={app.features}
+                            isFeatured={false}
+                            rating={app.rating}
+                            ratingCount={app.ratingCount}
+                            downloads={app.downloads}
+                            reviews={app.reviews}
+                        />
+                    </div>
                 ))
             }
         </div>
     </div>
 </Layout>
+

@@ -1,0 +1,234 @@
+---
+// True Liquid Glass WebGL Shader Canvas with Real-time Refraction, Chromatic Dispersion & Fluid Physics
+---
+
+<div id="liquid-glass-container" class="fixed inset-0 pointer-events-none z-0 overflow-hidden select-none">
+    <canvas id="liquid-glass-canvas" class="w-full h-full block"></canvas>
+</div>
+
+<script>
+    import * as THREE from "three";
+
+    class LiquidGlassScene {
+        private container: HTMLElement;
+        private canvas: HTMLCanvasElement;
+        private renderer!: THREE.WebGLRenderer;
+        private scene!: THREE.Scene;
+        private camera!: THREE.OrthographicCamera;
+        private material!: THREE.ShaderMaterial;
+        private mesh!: THREE.Mesh;
+        private mouse = new THREE.Vector2(0.5, 0.5);
+        private targetMouse = new THREE.Vector2(0.5, 0.5);
+        private clock = new THREE.Clock();
+        private isDark = false;
+
+        constructor() {
+            this.container = document.getElementById("liquid-glass-container")!;
+            this.canvas = document.getElementById("liquid-glass-canvas") as HTMLCanvasElement;
+            if (!this.container || !this.canvas) return;
+
+            this.checkTheme();
+            this.init();
+            this.setupEvents();
+            this.animate();
+        }
+
+        private checkTheme() {
+            this.isDark = document.documentElement.classList.contains("dark");
+        }
+
+        private init() {
+            const width = window.innerWidth;
+            const height = window.innerHeight;
+
+            this.scene = new THREE.Scene();
+            this.camera = new THREE.OrthographicCamera(-1, 1, 1, -1, 0, 1);
+
+            this.renderer = new THREE.WebGLRenderer({
+                canvas: this.canvas,
+                alpha: true,
+                antialias: true,
+                powerPreference: "high-performance",
+            });
+            this.renderer.setSize(width, height);
+            this.renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+
+            // Custom GLSL Shader for Optical Liquid Glass Refraction & Chromatic Aberration
+            const vertexShader = `
+                varying vec2 vUv;
+                void main() {
+                    vUv = uv;
+                    gl_Position = vec4(position, 1.0);
+                }
+            `;
+
+            const fragmentShader = `
+                uniform float u_time;
+                uniform vec2 u_resolution;
+                uniform vec2 u_mouse;
+                uniform float u_is_dark;
+                varying vec2 vUv;
+
+                // Simplex Noise Functions for Fluid Viscosity
+                vec3 mod289(vec3 x) { return x - floor(x * (1.0 / 289.0)) * 289.0; }
+                vec2 mod289(vec2 x) { return x - floor(x * (1.0 / 289.0)) * 289.0; }
+                vec3 permute(vec3 x) { return mod289(((x*34.0)+1.0)*x); }
+
+                float snoise(vec2 v) {
+                    const vec4 C = vec4(0.211324865405187, 0.366025403784439,
+                                        -0.577350269189626, 0.024390243902439);
+                    vec2 i  = floor(v + dot(v, C.yy));
+                    vec2 x0 = v -   i + dot(i, C.xx);
+                    vec2 i1 = (x0.x > x0.y) ? vec2(1.0, 0.0) : vec2(0.0, 1.0);
+                    vec4 x12 = x0.xyxy + C.xxzz;
+                    x12.xy -= i1;
+                    i = mod289(i);
+                    vec3 p = permute(permute(i.y + vec3(0.0, i1.y, 1.0)) + i.x + vec3(0.0, i1.x, 1.0));
+                    vec3 m = max(0.5 - vec3(dot(x0,x0), dot(x12.xy,x12.xy), dot(x12.zw,x12.zw)), 0.0);
+                    m = m*m;
+                    m = m*m;
+                    vec3 x = 2.0 * fract(p * C.www) - 1.0;
+                    vec3 h = abs(x) - 0.5;
+                    vec3 ox = floor(x + 0.5);
+                    vec3 a0 = x - ox;
+                    m *= 1.79284291400159 - 0.85373472095314 * (a0*a0 + h*h);
+                    vec3 g;
+                    g.x  = a0.x  * x0.x  + h.x  * x0.y;
+                    g.yz = a0.yz * x12.xz + h.yz * x12.yw;
+                    return 130.0 * dot(m, g);
+                }
+
+                void main() {
+                    vec2 uv = gl_FragCoord.xy / u_resolution.xy;
+                    float aspect = u_resolution.x / u_resolution.y;
+                    vec2 p = uv;
+                    p.x *= aspect;
+
+                    vec2 mouse = u_mouse;
+                    mouse.x *= aspect;
+
+                    // Calculate fluid blob displacement based on time & mouse attraction
+                    float t = u_time * 0.4;
+                    
+                    // Multi-layer organic liquid noise
+                    float n1 = snoise(p * 1.5 + vec2(t * 0.2, t * 0.3));
+                    float n2 = snoise(p * 3.0 - vec2(t * 0.4, t * 0.1));
+                    float fluidFlow = n1 * 0.7 + n2 * 0.3;
+
+                    // Mouse gravity pull (Liquid droplet effect)
+                    float mouseDist = length(p - mouse);
+                    float mouseEffect = smoothstep(0.6, 0.0, mouseDist) * 0.35;
+
+                    // Normal vector for glass refraction
+                    vec2 distortion = vec2(
+                        snoise(p * 2.0 + vec2(t * 0.3, 0.0)),
+                        snoise(p * 2.0 + vec2(0.0, t * 0.3))
+                    ) * 0.15 + (mouse - p) * mouseEffect;
+
+                    // Chromatic Dispersion (Prism split for liquid lens)
+                    float dispersion = 0.035;
+                    vec2 uvR = uv + distortion * (1.0 + dispersion);
+                    vec2 uvG = uv + distortion * 1.0;
+                    vec2 uvB = uv + distortion * (1.0 - dispersion);
+
+                    // Liquid Glass Color Palettes
+                    vec3 colorLightA = vec3(0.85, 0.92, 1.0);  // Soft sky tint
+                    vec3 colorLightB = vec3(0.92, 0.88, 0.98); // Lavender tint
+                    vec3 colorLightC = vec3(0.88, 0.95, 0.92); // Mint glass tint
+
+                    vec3 colorDarkA = vec3(0.08, 0.22, 0.55);  // Deep sapphire
+                    vec3 colorDarkB = vec3(0.28, 0.12, 0.52);  // Rich amethyst
+                    vec3 colorDarkC = vec3(0.04, 0.35, 0.48);  // Cyan oceanic
+
+                    vec3 colA = mix(colorLightA, colorDarkA, u_is_dark);
+                    vec3 colB = mix(colorLightB, colorDarkB, u_is_dark);
+                    vec3 colC = mix(colorLightC, colorDarkC, u_is_dark);
+
+                    // Refracted multi-spectral liquid gradient
+                    float maskR = sin(uvR.x * 3.14 + t) * 0.5 + 0.5 + fluidFlow * 0.5;
+                    float maskG = cos(uvG.y * 3.14 - t * 0.8) * 0.5 + 0.5 + fluidFlow * 0.5;
+                    float maskB = sin((uvB.x + uvB.y) * 2.5 + t * 0.5) * 0.5 + 0.5;
+
+                    vec3 baseCol = mix(colA, colB, maskR);
+                    baseCol = mix(baseCol, colC, maskG * maskB);
+
+                    // Specular Highlight & Glass Fresnel Ring
+                    float edge = length(distortion) * 4.5;
+                    float fresnel = pow(edge, 2.5);
+                    vec3 specular = vec3(1.0) * fresnel * (u_is_dark > 0.5 ? 0.35 : 0.6);
+
+                    vec3 finalColor = baseCol + specular;
+                    float alpha = (u_is_dark > 0.5) ? 0.45 : 0.32;
+
+                    gl_FragColor = vec4(finalColor, alpha);
+                }
+            `;
+
+            this.material = new THREE.ShaderMaterial({
+                vertexShader,
+                fragmentShader,
+                uniforms: {
+                    u_time: { value: 0 },
+                    u_resolution: { value: new THREE.Vector2(width, height) },
+                    u_mouse: { value: new THREE.Vector2(0.5, 0.5) },
+                    u_is_dark: { value: this.isDark ? 1.0 : 0.0 },
+                },
+                transparent: true,
+            });
+
+            const geometry = new THREE.PlaneGeometry(2, 2);
+            this.mesh = new THREE.Mesh(geometry, this.material);
+            this.scene.add(this.mesh);
+        }
+
+        private setupEvents() {
+            window.addEventListener("resize", () => {
+                const width = window.innerWidth;
+                const height = window.innerHeight;
+                this.renderer.setSize(width, height);
+                this.material.uniforms.u_resolution.value.set(width, height);
+            });
+
+            window.addEventListener("mousemove", (e) => {
+                this.targetMouse.x = e.clientX / window.innerWidth;
+                this.targetMouse.y = 1.0 - e.clientY / window.innerHeight;
+            });
+
+            // Listen for dark/light mode toggle
+            const observer = new MutationObserver(() => {
+                this.checkTheme();
+                if (this.material) {
+                    this.material.uniforms.u_is_dark.value = this.isDark ? 1.0 : 0.0;
+                }
+            });
+            observer.observe(document.documentElement, {
+                attributes: true,
+                attributeFilter: ["class"],
+            });
+        }
+
+        private animate = () => {
+            requestAnimationFrame(this.animate);
+
+            // Smooth mouse interpolation (Fluid Spring)
+            this.mouse.lerp(this.targetMouse, 0.06);
+
+            this.material.uniforms.u_time.value = this.clock.getElapsedTime();
+            this.material.uniforms.u_mouse.value.copy(this.mouse);
+
+            this.renderer.render(this.scene, this.camera);
+        };
+    }
+
+    // Initialize on DOM ready & View Transitions
+    const initLiquidGlass = () => {
+        new LiquidGlassScene();
+    };
+
+    if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", initLiquidGlass);
+    } else {
+        initLiquidGlass();
+    }
+    document.addEventListener("astro:page-load", initLiquidGlass);
+</script>

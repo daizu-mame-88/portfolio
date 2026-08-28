@@ -3,7 +3,6 @@ import type { CollectionEntry } from "astro:content";
 import { getCollection } from "astro:content";
 import Layout from "../../../layouts/Layout.astro";
 import BlogCard from "../../../components/BlogCard.astro";
-import SectionHeader from "../../../components/SectionHeader.astro";
 
 type Props = {
     posts: CollectionEntry<"blog">[];
@@ -43,48 +42,54 @@ export async function getStaticPaths() {
 const { tag, posts } = Astro.props as Props;
 ---
 
-<Layout title={`タグ: #${tag}`}>
-    <div class="container-custom section-padding pt-40">
+<Layout title={`#${tag} | SHUYA KOMIYA`}>
+    <div class="container-custom pb-32">
         <div class="max-w-3xl mx-auto">
             <a
                 href="/portfolio/blog"
-                class="inline-flex items-center gap-3 text-secondary hover:text-primary transition-all mb-16 font-bold text-[11px] uppercase tracking-widest group"
+                class="inline-flex items-center gap-2 text-secondary hover:text-primary transition-colors mb-12 text-xs font-semibold tracking-tight group"
             >
                 <svg
-                    class="w-4 h-4 transition-transform group-hover:-translate-x-1"
+                    class="w-3.5 h-3.5 transition-transform group-hover:-translate-x-1"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
-                    ><path
+                >
+                    <path
                         stroke-linecap="round"
                         stroke-linejoin="round"
-                        stroke-width="2.5"
-                        d="M10 19l-7-7m0 0l7-7m-7 7h18"></path></svg
-                >
-                Back to Blog
+                        stroke-width="2"
+                        d="M10 19l-7-7m0 0l7-7m-7 7h18"
+                    />
+                </svg>
+                <span>Journal</span>
             </a>
 
-            <div class="mb-24">
-                <h1 class="heading-large mb-8">#{tag}</h1>
-                <p class="text-2xl text-secondary leading-relaxed font-medium">
-                    タグ「{tag}」に関連する記事が {posts.length} 件見つかりました。
+            <div class="mb-16 reveal-on-scroll">
+                <div class="inline-flex items-center px-3 py-1 rounded-full liquid-pill text-xs font-medium text-accent mb-4">
+                    <span>Tag</span>
+                </div>
+                <h1 class="heading-hero mb-4">#{tag}</h1>
+                <p class="heading-sub">
+                    タグ「{tag}」に関連する記事が {posts.length} 件あります。
                 </p>
             </div>
 
-            <div
-                class="bg-white border border-slate-50 rounded-[2rem] shadow-sm overflow-hidden divide-y divide-slate-50"
-            >
-                {
-                    posts.map((post) => (
-                        <BlogCard
-                            title={post.data.title}
-                            date={post.data.pubDate}
-                            slug={post.slug}
-                            tags={post.data.tags}
-                        />
-                    ))
-                }
+            <div class="liquid-card p-4 sm:p-6 reveal-on-scroll">
+                <div class="flex flex-col gap-2">
+                    {
+                        posts.map((post) => (
+                            <BlogCard
+                                title={post.data.title}
+                                date={post.data.pubDate}
+                                slug={post.slug}
+                                tags={post.data.tags}
+                            />
+                        ))
+                    }
+                </div>
             </div>
         </div>
     </div>
 </Layout>
+

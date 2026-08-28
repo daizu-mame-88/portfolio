@@ -21,33 +21,35 @@ const { post } = Astro.props as Props;
 const { Content } = await post.render();
 ---
 
-<Layout title={post.data.title} description={post.data.description}>
-    <div class="container-custom section-padding pt-40">
+<Layout title={`${post.data.title} | SHUYA KOMIYA`} description={post.data.description}>
+    <div class="container-custom pb-32">
         <div class="max-w-3xl mx-auto">
             <!-- Back Link -->
             <a
                 href="/portfolio/blog"
-                class="inline-flex items-center gap-3 text-secondary hover:text-primary transition-all mb-16 font-bold text-[11px] uppercase tracking-widest group"
+                class="inline-flex items-center gap-2 text-secondary hover:text-primary transition-colors mb-12 text-xs font-semibold tracking-tight group"
             >
                 <svg
-                    class="w-4 h-4 transition-transform group-hover:-translate-x-1"
+                    class="w-3.5 h-3.5 transition-transform group-hover:-translate-x-1"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
-                    ><path
+                >
+                    <path
                         stroke-linecap="round"
                         stroke-linejoin="round"
-                        stroke-width="2.5"
-                        d="M10 19l-7-7m0 0l7-7m-7 7h18"></path></svg
-                >
-                Back to Blog
+                        stroke-width="2"
+                        d="M10 19l-7-7m0 0l7-7m-7 7h18"
+                    />
+                </svg>
+                <span>Journal</span>
             </a>
 
-            <article>
-                <header class="mb-16">
+            <article class="reveal-on-scroll">
+                <header class="mb-12 md:mb-16">
                     <time
                         datetime={post.data.pubDate.toISOString()}
-                        class="text-secondary font-bold text-[11px] tracking-widest block mb-6 font-mono opacity-60"
+                        class="text-xs text-secondary font-medium tracking-tight block mb-4"
                     >
                         {
                             post.data.pubDate
@@ -59,15 +61,15 @@ const { Content } = await post.render();
                                 .replace(/\//g, ".")
                         }
                     </time>
-                    <h1 class="heading-large mb-10">{post.data.title}</h1>
+                    <h1 class="heading-hero mb-6">{post.data.title}</h1>
 
                     {
-                        post.data.tags && (
+                        post.data.tags && post.data.tags.length > 0 && (
                             <div class="flex flex-wrap gap-2">
                                 {post.data.tags.map((tag) => (
                                     <a
                                         href={`/portfolio/blog/tag/${tag}`}
-                                        class="text-[10px] font-bold px-4 py-1.5 bg-slate-50 text-slate-500 rounded-full border border-slate-100 hover:border-accent hover:text-accent transition-all uppercase tracking-wider"
+                                        class="text-xs font-medium px-3 py-1 rounded-full liquid-pill text-secondary hover:text-primary transition-colors"
                                     >
                                         #{tag}
                                     </a>
@@ -78,20 +80,21 @@ const { Content } = await post.render();
                 </header>
 
                 <div
-                    class="prose prose-slate prose-lg max-w-none leading-relaxed tracking-tight text-primary/80"
+                    class="prose prose-slate dark:prose-invert prose-lg max-w-none leading-relaxed tracking-tight"
                 >
                     <Content />
                 </div>
 
-                <div class="mt-24 pt-12 border-t border-slate-50">
+                <div class="mt-20 pt-10 flex items-center justify-between">
                     <a
                         href="/portfolio/blog"
-                        class="btn-primary inline-flex items-center"
+                        class="btn-apple-secondary text-xs"
                     >
-                        記事一覧に戻る
+                        <span>記事一覧に戻る</span>
                     </a>
                 </div>
             </article>
         </div>
     </div>
 </Layout>
+

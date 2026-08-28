@@ -7,7 +7,8 @@ interface Props {
 const { title, subtitle } = Astro.props;
 ---
 
-<div class="mb-12">
-    <h2 class="heading-medium mb-4">{title}</h2>
-    {subtitle && <p class="text-secondary">{subtitle}</p>}
+<div class="mb-12 md:mb-16">
+    <h2 class="heading-section mb-3">{title}</h2>
+    {subtitle && <p class="heading-sub max-w-xl">{subtitle}</p>}
 </div>
+

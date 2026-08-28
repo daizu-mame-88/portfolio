@@ -2,7 +2,6 @@
 import { getCollection } from "astro:content";
 import Layout from "../../layouts/Layout.astro";
 import BlogCard from "../../components/BlogCard.astro";
-import SectionHeader from "../../components/SectionHeader.astro";
 
 const allPosts = await getCollection("blog", ({ data }) => {
     return data.visibility === "public";
@@ -12,34 +11,36 @@ const sortedPosts = allPosts.sort(
 );
 ---
 
-<Layout title="ブログ">
-    <div class="container-custom section-padding">
-        <div class="max-w-3xl mb-24">
-            <h1 class="heading-large mb-8">ブログ</h1>
-            <p class="text-2xl text-secondary leading-relaxed font-medium">
-                iOS開発の技術的な記録などをまとめています。
+<Layout title="Blog | SHUYA KOMIYA">
+    <div class="container-custom pb-32">
+        <div class="max-w-3xl mb-16 md:mb-20 reveal-on-scroll">
+            <h1 class="heading-hero mb-6">Blog</h1>
+            <p class="heading-sub max-w-2xl">
+                iOSアプリ開発における技術的検証、設計思想、備忘録をまとめています。
             </p>
         </div>
 
-        <div
-            class="bg-surface border border-border rounded-[2rem] shadow-sm overflow-hidden divide-y divide-border"
-        >
-            {
-                sortedPosts.map((post) => (
-                    <BlogCard
-                        title={post.data.title}
-                        date={post.data.pubDate}
-                        slug={post.slug}
-                        tags={post.data.tags}
-                    />
-                ))
-            }
+        <div class="liquid-card p-4 sm:p-6 reveal-on-scroll">
+            <div class="flex flex-col gap-2">
+                {
+                    sortedPosts.map((post) => (
+                        <BlogCard
+                            title={post.data.title}
+                            date={post.data.pubDate}
+                            slug={post.slug}
+                            tags={post.data.tags}
+                        />
+                    ))
+                }
+            </div>
         </div>
 
         {
             sortedPosts.length === 0 && (
-                <div class="text-center py-20 bg-surface border border-border rounded-xl mt-8">
-                    <p class="text-secondary">記事が見つかりませんでした。</p>
+                <div class="text-center py-20 liquid-card mt-8">
+                    <p class="text-secondary text-sm">
+                        記事が見つかりませんでした。
+                    </p>
                 </div>
             )
         }

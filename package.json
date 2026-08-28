@@ -14,8 +14,10 @@
     "@astrojs/tailwind": "^6.0.2",
     "@tailwindcss/typography": "^0.5.19",
     "@tailwindcss/vite": "^4.1.17",
+    "@types/three": "^0.185.4",
     "astro": "^5.16.4",
     "dotenv": "^17.4.2",
-    "jsonwebtoken": "^9.0.3"
+    "jsonwebtoken": "^9.0.3",
+    "three": "^0.185.1"
   }
 }

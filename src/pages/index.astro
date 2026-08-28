@@ -26,124 +26,160 @@ const featuredApps = appsData
 
 <Layout title="PORTFOLIO">
     <!-- Hero Section -->
-    <section class="section-padding flex items-center min-h-[70vh]">
+    <section class="min-h-[82vh] flex flex-col justify-center pb-20 pt-8">
         <div class="container-custom">
-            <div class="max-w-3xl">
-                <h1 class="heading-large mb-10">
-                    iOSアプリ開発・ポートフォリオ
-                </h1>
-                <p
-                    class="text-2xl text-secondary leading-relaxed mb-12 font-medium max-w-2xl"
+            <div class="max-w-3xl reveal-on-scroll">
+                <!-- Status Pill -->
+                <div
+                    class="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full liquid-pill text-xs font-semibold text-secondary mb-10"
                 >
-                    SwiftUIを用いたモダンなiOSアプリ制作を行っています。
+                    <span
+                        class="w-2 h-2 rounded-full bg-emerald-500 animate-ping"
+                    ></span>
+                    <span class="text-primary font-medium"
+                        >iOS App Engineer</span
+                    >
+                </div>
+
+                <h1 class="heading-hero mb-8 text-balance">
+                    Crafting tactile,<br />
+                    delightful iOS apps.
+                </h1>
+
+                <p class="heading-sub mb-12 max-w-2xl text-balance">
+                    Swift / SwiftUI
+                    を軸に、指先に吸い付くような手触りと、洗練されたインターフェイスを追求したiOSアプリケーションを開発しています。
                 </p>
-                <div class="flex gap-6">
-                    <a href="/portfolio/apps" class="btn-primary">
-                        制作アプリ一覧
+
+                <div class="flex flex-wrap items-center gap-4">
+                    <a href="#apps" class="btn-apple-primary">
+                        <span>開発アプリを見る</span>
+                        <svg
+                            class="w-4 h-4"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2.5"
+                                d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </a>
+                    <a
+                        href="https://github.com/shuya-kk"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn-apple-secondary"
+                    >
+                        <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
+                            <path
+                                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-10.886 0-6.627-5.373-12-12-12z"
+                            ></path>
+                        </svg>
+                        <span>GitHub</span>
                     </a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Apps Section -->
-    <section
-        id="apps"
-        class="section-padding bg-surface border-y border-border"
-    >
+    <!-- Featured Apps Section -->
+    <section id="apps" class="section-padding">
         <div class="container-custom">
             <div
-                class="mb-20 flex flex-col md:flex-row md:items-end justify-between gap-8"
+                class="reveal-on-scroll mb-14 md:mb-18 flex flex-col sm:flex-row sm:items-end justify-between gap-6"
             >
-                <div class="max-w-xl">
-                    <h2 class="heading-medium mb-6">開発アプリ</h2>
-                    <p class="text-secondary text-lg">
-                        制作したiOSアプリケーションの一部をご紹介します。
+                <div>
+                    <h2 class="heading-section mb-3">Featured Apps</h2>
+                    <p class="heading-sub">
+                        App Storeにて配信中の主要なiOSアプリケーションです。
                     </p>
                 </div>
                 <a
                     href="/portfolio/apps"
-                    class="text-primary font-bold tracking-widest uppercase hover:opacity-70 transition-opacity flex items-center gap-2 pb-1 border-b-2 border-primary"
+                    class="text-xs font-semibold text-accent hover:opacity-75 transition-opacity inline-flex items-center gap-1.5 tracking-tight group"
                 >
-                    View All Apps
+                    <span>すべてのアプリを見る</span>
                     <svg
-                        class="w-4 h-4"
+                        class="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
-                        ><path
+                    >
+                        <path
                             stroke-linecap="round"
                             stroke-linejoin="round"
                             stroke-width="2"
-                            d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg
-                    >
+                            d="M9 5l7 7-7 7"></path>
+                    </svg>
                 </a>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10">
                 {
                     featuredApps.map((app: any) => (
-                        <AppCard
-                            name={app.name}
-                            description={app.description}
-                            iconUrl={app.iconPlaceholder}
-                            appStoreUrl={app.appStoreLink}
-                            features={app.features}
-                            isFeatured={false}
-                            rating={app.rating}
-                            ratingCount={app.ratingCount}
-                            downloads={app.downloads}
-                            reviews={app.reviews}
-                        />
+                        <div class="reveal-on-scroll">
+                            <AppCard
+                                name={app.name}
+                                description={app.description}
+                                iconUrl={app.iconPlaceholder}
+                                appStoreUrl={app.appStoreLink}
+                                features={app.features}
+                                isFeatured={false}
+                                rating={app.rating}
+                                ratingCount={app.ratingCount}
+                                downloads={app.downloads}
+                                reviews={app.reviews}
+                            />
+                        </div>
                     ))
                 }
             </div>
         </div>
     </section>
 
-    <!-- Posts Section -->
-    <section
-        id="posts"
-        class="section-padding bg-background border-y border-border"
-    >
+    <!-- Latest Blog Posts Section -->
+    <section id="posts" class="section-padding">
         <div class="container-custom">
-            <SectionHeader
-                title="ブログ"
-                subtitle="開発の記録や技術的な備忘録です。"
-            />
-
-            <div
-                class="divide-y divide-border bg-surface border border-border rounded-xl"
-            >
-                {
-                    latestPosts.map((post) => (
-                        <BlogCard
-                            title={post.data.title}
-                            date={post.data.pubDate}
-                            slug={post.slug}
-                            tags={post.data.tags}
-                        />
-                    ))
-                }
+            <div class="reveal-on-scroll">
+                <SectionHeader
+                    title="Blog"
+                    subtitle="アプリ開発の知見、技術メモ、リリース情報などを発信しています。"
+                />
             </div>
 
-            <div class="mt-12">
-                <a
-                    href="/portfolio/blog"
-                    class="text-accent font-medium hover:underline inline-flex items-center gap-2"
-                >
-                    すべての記事を見る
+            <div class="liquid-card p-4 sm:p-6 reveal-on-scroll">
+                <div class="flex flex-col gap-2">
+                    {
+                        latestPosts.map((post) => (
+                            <BlogCard
+                                title={post.data.title}
+                                date={post.data.pubDate}
+                                slug={post.slug}
+                                tags={post.data.tags}
+                            />
+                        ))
+                    }
+                </div>
+            </div>
+
+            <div class="mt-10 text-center reveal-on-scroll">
+                <a href="/portfolio/blog" class="btn-apple-secondary text-xs">
+                    <span>すべての記事を読む</span>
                     <svg
-                        class="w-4 h-4"
+                        class="w-3.5 h-3.5"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
-                        ><path
+                    >
+                        <path
                             stroke-linecap="round"
                             stroke-linejoin="round"
                             stroke-width="2"
-                            d="M9 5l7 7-7 7"></path></svg
-                    >
+                            d="M9 5l7 7-7 7"></path>
+                    </svg>
                 </a>
             </div>
         </div>
@@ -152,30 +188,30 @@ const featuredApps = appsData
     <!-- About Section -->
     <section id="about" class="section-padding">
         <div class="container-custom">
-            <div class="max-w-3xl">
-                <h2 class="heading-medium mb-8">私について</h2>
-                <div class="space-y-6 text-primary leading-relaxed text-lg">
+            <div class="max-w-3xl reveal-on-scroll">
+                <h2 class="heading-section mb-6">About</h2>
+                <div
+                    class="space-y-6 text-base sm:text-xl text-secondary leading-relaxed font-normal"
+                >
                     <p>
                         Swift /
                         SwiftUIを中心に、直感的で使いやすいiOSアプリの開発を行っています。
                     </p>
                 </div>
 
-                <div class="mt-12 flex items-center gap-6">
+                <div class="mt-12 flex items-center gap-4">
                     <a
                         href="https://github.com/shuya-kk"
                         target="_blank"
-                        class="text-secondary hover:text-primary transition-colors font-medium flex items-center gap-2"
+                        rel="noopener noreferrer"
+                        class="btn-apple-secondary text-xs"
                     >
-                        GitHub
-                        <svg
-                            class="w-4 h-4"
-                            fill="currentColor"
-                            viewBox="0 0 24 24"
-                            ><path
+                        <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
+                            <path
                                 d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-10.886 0-6.627-5.373-12-12-12z"
-                            ></path></svg
-                        >
+                            ></path>
+                        </svg>
+                        <span>GitHub Profile</span>
                     </a>
                 </div>
             </div>
